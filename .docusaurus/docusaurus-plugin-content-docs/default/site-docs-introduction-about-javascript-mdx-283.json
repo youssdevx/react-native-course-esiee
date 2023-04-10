@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Introduction/about-javascript",
+  "id": "Introduction/about-javascript",
+  "title": "About JavaScript",
+  "description": "Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.",
+  "source": "@site/docs/Introduction/about-javascript.mdx",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/about-javascript",
+  "permalink": "/docs/Introduction/about-javascript",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/about-javascript.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "About JavaScript",
+    "section": "Introduction",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About React Native",
+    "permalink": "/docs/Introduction/about-react-native"
+  }
+}

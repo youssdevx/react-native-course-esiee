@@ -1,0 +1,216 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/admin/Projets/react-native-course-esiee/sidebars.js",
+          "contentPath": "/Users/admin/Projets/react-native-course-esiee/docs",
+          "contentPathLocalized": "/Users/admin/Projets/react-native-course-esiee/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "Introduction/about-javascript",
+              "id": "Introduction/about-javascript",
+              "title": "About JavaScript",
+              "description": "Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.",
+              "source": "@site/docs/Introduction/about-javascript.mdx",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/about-javascript",
+              "permalink": "/docs/Introduction/about-javascript",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/about-javascript.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "About JavaScript",
+                "section": "Introduction",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "About React Native",
+                "permalink": "/docs/Introduction/about-react-native"
+              }
+            },
+            {
+              "unversionedId": "Introduction/about-react-native",
+              "id": "Introduction/about-react-native",
+              "title": "About React Native",
+              "description": "Android vs iOS",
+              "source": "@site/docs/Introduction/about-react-native.mdx",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/about-react-native",
+              "permalink": "/docs/Introduction/about-react-native",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/about-react-native.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "About React Native",
+                "section": "Introduction",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/category/introduction"
+              },
+              "next": {
+                "title": "About JavaScript",
+                "permalink": "/docs/Introduction/about-javascript"
+              }
+            },
+            {
+              "unversionedId": "welcome",
+              "id": "welcome",
+              "title": "Welcome",
+              "description": "Hi there, and welcome to React Native! 👋",
+              "source": "@site/docs/welcome.mdx",
+              "sourceDirName": ".",
+              "slug": "/welcome",
+              "permalink": "/docs/welcome",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/welcome.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Welcome",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/category/introduction"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "welcome"
+              },
+              {
+                "type": "category",
+                "label": "Introduction",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Introduction/about-react-native"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/about-javascript"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Introduction to React Native",
+                  "slug": "/category/introduction",
+                  "permalink": "/docs/category/introduction"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "td-1",
+          "metadata": {
+            "permalink": "/blog/td-1",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-04-11-TD1.mdx",
+            "source": "@site/blog/2023-04-11-TD1.mdx",
+            "title": "TD n°1 - Les bases de JavaScript",
+            "description": "FreeCodeCamp",
+            "date": "2023-04-11T00:00:00.000Z",
+            "formattedDate": "April 11, 2023",
+            "tags": [],
+            "readingTime": 0.265,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Youcef",
+                "title": "Professeur",
+                "url": "https://www.linkedin.com/in/youcefacheuk/",
+                "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+                "key": "youcef"
+              }
+            ],
+            "frontMatter": {
+              "slug": "td-1",
+              "title": "TD n°1 - Les bases de JavaScript",
+              "authors": [
+                "youcef"
+              ]
+            }
+          },
+          "content": "<img alt=\"JavaScript\" src=\"/img/javascript.png\" style={{width:\"50%\"}} />\n\n## FreeCodeCamp\n\nRendez-vous sur [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) et créez votre compte.\n\n## Tutoriel JavaScript\n\nL'objectif est de maîtriser :\n- Basic JavaScript => <b>https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/</b>\n- ES6 => <b>https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/</b>\n\n## Quiz\n\nLors du prochain cours, le 10/05/2023, vous aurez un quiz de 20 minutes sur JavaScript afin de valider vos connaissances."
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "td-1"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

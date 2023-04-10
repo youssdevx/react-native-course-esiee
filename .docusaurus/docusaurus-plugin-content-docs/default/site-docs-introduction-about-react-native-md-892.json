@@ -1,0 +1,26 @@
+{
+  "unversionedId": "introduction/about-react-native",
+  "id": "introduction/about-react-native",
+  "title": "About React Native",
+  "description": "Kadi talks about the history of React Native, why was it created and how it works on a high level",
+  "source": "@site/docs/introduction/about-react-native.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/about-react-native",
+  "permalink": "/docs/introduction/about-react-native",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/about-react-native.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "path": "/react-native",
+    "title": "About React Native",
+    "order": 1,
+    "section": "Introduction",
+    "description": "Kadi talks about the history of React Native, why was it created and how it works on a high level"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

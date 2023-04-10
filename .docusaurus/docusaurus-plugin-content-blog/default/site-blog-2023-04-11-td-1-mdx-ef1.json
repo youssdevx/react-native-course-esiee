@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/td-1",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-04-11-TD1.mdx",
+  "source": "@site/blog/2023-04-11-TD1.mdx",
+  "title": "TD n°1 - Les bases de JavaScript",
+  "description": "FreeCodeCamp",
+  "date": "2023-04-11T00:00:00.000Z",
+  "formattedDate": "April 11, 2023",
+  "tags": [],
+  "readingTime": 0.265,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Youcef",
+      "title": "Professeur",
+      "url": "https://www.linkedin.com/in/youcefacheuk/",
+      "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+      "key": "youcef"
+    }
+  ],
+  "frontMatter": {
+    "slug": "td-1",
+    "title": "TD n°1 - Les bases de JavaScript",
+    "authors": [
+      "youcef"
+    ]
+  }
+}

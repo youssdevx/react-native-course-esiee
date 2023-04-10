@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Introduction/about-react-native copy",
+  "id": "Introduction/about-react-native copy",
+  "title": "About React Native",
+  "description": "Android vs iOS",
+  "source": "@site/docs/Introduction/about-react-native copy.mdx",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/about-react-native copy",
+  "permalink": "/docs/Introduction/about-react-native copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/about-react-native copy.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "About React Native",
+    "order": 1,
+    "section": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/category/introduction"
+  },
+  "next": {
+    "title": "About React Native",
+    "permalink": "/docs/Introduction/about-react-native"
+  }
+}

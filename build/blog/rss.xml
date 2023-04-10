@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>React Native Course Blog</title>
+        <link>https://react-native-course-esiee.netlify.app/blog</link>
+        <description>React Native Course Blog</description>
+        <lastBuildDate>Tue, 11 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[TD n°1 - Les bases de JavaScript]]></title>
+            <link>https://react-native-course-esiee.netlify.app/blog/td-1</link>
+            <guid>https://react-native-course-esiee.netlify.app/blog/td-1</guid>
+            <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[FreeCodeCamp]]></description>
+            <content:encoded><![CDATA[<img loading="lazy" alt="JavaScript" src="/img/javascript.png" style="width:50%" class="img_Era8"><h2 class="anchor anchorWithStickyNavbar_DZnE" id="freecodecamp">FreeCodeCamp<a href="#freecodecamp" class="hash-link" aria-label="Direct link to FreeCodeCamp" title="Direct link to FreeCodeCamp">​</a></h2><p>Rendez-vous sur <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a> et créez votre compte.</p><h2 class="anchor anchorWithStickyNavbar_DZnE" id="tutoriel-javascript">Tutoriel JavaScript<a href="#tutoriel-javascript" class="hash-link" aria-label="Direct link to Tutoriel JavaScript" title="Direct link to Tutoriel JavaScript">​</a></h2><p>L'objectif est de maîtriser :</p><ul><li>Basic JavaScript =&gt; <b><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/" target="_blank" rel="noopener noreferrer">https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/</a></b></li><li>ES6 =&gt; <b><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/" target="_blank" rel="noopener noreferrer">https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/</a></b></li></ul><h2 class="anchor anchorWithStickyNavbar_DZnE" id="quiz">Quiz<a href="#quiz" class="hash-link" aria-label="Direct link to Quiz" title="Direct link to Quiz">​</a></h2><p>Lors du prochain cours, le 10/05/2023, vous aurez un quiz de 20 minutes sur JavaScript afin de valider vos connaissances.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

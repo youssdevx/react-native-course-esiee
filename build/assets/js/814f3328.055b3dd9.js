@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_native_course_esiee=self.webpackChunkreact_native_course_esiee||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"TD n\xb01 - Les bases de JavaScript","permalink":"/blog/td-1"}]}')}}]);
