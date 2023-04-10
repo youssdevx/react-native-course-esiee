@@ -1,110 +1,67 @@
 {
-  "/__docusaurus/debug-f77": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
-  "/__docusaurus/debug/config-fab": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
-  "/__docusaurus/debug/content-507": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-1f0": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
-  "/__docusaurus/debug/metadata-b86": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
-  "/__docusaurus/debug/registry-9d7": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
-  "/__docusaurus/debug/routes-67f": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-19-a-6b1"
-    }
-  },
   "/blog-044": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blogb-8-f-3de"
+      "plugin": "b8f57df9"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blogebc-27f"
+        "content": "ebc7a1a1"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/archive-758": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blogb-8-f-3de"
+      "plugin": "b8f57df9"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "b2f554cd"
   },
   "/blog/td-1-b21": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogb-8-f-3de"
+      "plugin": "b8f57df9"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-td-1-ef-1-f4e"
+    "sidebar": "814f3328",
+    "content": "ef1bde9c"
   },
   "/markdown-page-65f": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagecd-3-66f"
+      "plugin": "cd3244f2"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-690": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-725-796"
+      "plugin": "7256130c"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/category/introduction-d40": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-introduction-205-e9d"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "205e281e"
   },
   "/docs/Introduction/about-javascript-f3b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-introduction-about-javascript-283-e62"
+    "__comp": "17896441",
+    "content": "28331e94"
   },
   "/docs/Introduction/about-react-native-3fd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-introduction-about-react-native-19-e-180"
+    "__comp": "17896441",
+    "content": "19e567e4"
   },
   "/docs/welcome-e5a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-welcome-282-fc8"
+    "__comp": "17896441",
+    "content": "282d1385"
   },
   "/-849": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---markdown-pagecd-3-66f"
+      "plugin": "cd3244f2"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
