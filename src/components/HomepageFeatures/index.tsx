@@ -10,38 +10,62 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Basics',
+    Svg: require('@site/static/img/teamwork.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn the basics of JavaScript and React Native
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'TypeScript',
+    Svg: require('@site/static/img/success.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Using TypeScript to add types to JavaScript
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Splash screens, App Icons, custom fonts',
+    Svg: require('@site/static/img/prize.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Make your app stand out with your own custom splash screens, app icons and custom fonts
+      </>
+    ),
+  },
+  {
+    title: 'Images',
+    Svg: require('@site/static/img/winner.svg').default,
+    description: (
+      <>
+        Persist data across sessions using AsyncStorage
+      </>
+    ),
+  },
+  {
+    title: 'Vector Icons',
+    Svg: require('@site/static/img/clover.svg').default,
+    description: (
+      <>
+        Spice up your app with vector icons
+      </>
+    ),
+  },
+  {
+    title: 'Gestures and Animation',
+    Svg: require('@site/static/img/idea.svg').default,
+    description: (
+      <>
+        Learn to use gestures and animation
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

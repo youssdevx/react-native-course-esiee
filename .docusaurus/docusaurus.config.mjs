@@ -5,7 +5,7 @@
  */
 export default {
   "title": "React Native Course",
-  "tagline": "React Native ❤️",
+  "tagline": "An beginner React Native course",
   "favicon": "img/favicon.ico",
   "url": "https://react-native-course-esiee.netlify.app",
   "baseUrl": "/",
