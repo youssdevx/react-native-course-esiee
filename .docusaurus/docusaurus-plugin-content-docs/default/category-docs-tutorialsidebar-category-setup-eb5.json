@@ -1,0 +1,16 @@
+{
+  "title": "Setup",
+  "description": "Setup development environment",
+  "slug": "/category/setup",
+  "permalink": "/docs/category/setup",
+  "navigation": {
+    "previous": {
+      "title": "What is Expo?",
+      "permalink": "/docs/Introduction/expo"
+    },
+    "next": {
+      "title": "Getting Started",
+      "permalink": "/docs/setup/getting-started"
+    }
+  }
+}

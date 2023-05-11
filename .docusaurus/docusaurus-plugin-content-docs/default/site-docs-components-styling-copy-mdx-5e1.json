@@ -1,0 +1,29 @@
+{
+  "unversionedId": "components/styling copy",
+  "id": "components/styling copy",
+  "title": "Styling",
+  "description": "In React Native, all styling is done using inline styles. We use a StyleSheet from react-native to create the styles. Usually we add this styles constant at the bottom of the file, or in a separate file:",
+  "source": "@site/docs/components/styling copy.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/styling copy",
+  "permalink": "/docs/components/styling copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/styling copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Styling",
+    "section": "Components",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic React Native Components",
+    "permalink": "/docs/components/basic-components"
+  },
+  "next": {
+    "title": "Styling",
+    "permalink": "/docs/components/styling"
+  }
+}

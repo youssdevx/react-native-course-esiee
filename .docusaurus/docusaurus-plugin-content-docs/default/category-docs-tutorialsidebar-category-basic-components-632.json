@@ -1,0 +1,16 @@
+{
+  "title": "Basic components",
+  "description": "Basic components",
+  "slug": "/category/basic-components",
+  "permalink": "/docs/category/basic-components",
+  "navigation": {
+    "previous": {
+      "title": "Debugging",
+      "permalink": "/docs/setup/debugging"
+    },
+    "next": {
+      "title": "Basic React Native Components",
+      "permalink": "/docs/components/basic-components"
+    }
+  }
+}

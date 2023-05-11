@@ -15,10 +15,151 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/admin/Projets/react-native-course-esiee/sidebars.js",
-          "contentPath": "/Users/admin/Projets/react-native-course-esiee/docs",
-          "contentPathLocalized": "/Users/admin/Projets/react-native-course-esiee/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/youcef/Projects/react-native-course-esiee/sidebars.js",
+          "contentPath": "/Users/youcef/Projects/react-native-course-esiee/docs",
+          "contentPathLocalized": "/Users/youcef/Projects/react-native-course-esiee/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "components/basic-components",
+              "id": "components/basic-components",
+              "title": "Basic React Native Components",
+              "description": "If you're already familiar with React then you've got a head start, lucky you! Before we dive into React Native, let's start by looking at this \"hello world\" React component:",
+              "source": "@site/docs/components/basic-components.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/basic-components",
+              "permalink": "/docs/components/basic-components",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/basic-components.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Basic React Native Components",
+                "section": "Components",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Components",
+                "permalink": "/docs/category/components"
+              },
+              "next": {
+                "title": "Styling",
+                "permalink": "/docs/components/styling"
+              }
+            },
+            {
+              "unversionedId": "components/components",
+              "id": "components/components",
+              "title": "Components",
+              "description": "React (Native) is a component-based framework. This means that your app is made from lots of components that are nested within each other. You always have one root component (in our case it is our App component), but inside it we can have as many big or small components as we'd like.",
+              "source": "@site/docs/components/components.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/",
+              "permalink": "/docs/components/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/components.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Components",
+                "section": "Components",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Styling",
+                "permalink": "/docs/components/styling"
+              },
+              "next": {
+                "title": "Image",
+                "permalink": "/docs/components/image"
+              }
+            },
+            {
+              "unversionedId": "components/image",
+              "id": "components/image",
+              "title": "Image",
+              "description": "Image is used to render images. Images may either be downloaded from the web, or imported as files, which are then bundled with the app.",
+              "source": "@site/docs/components/image.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/image",
+              "permalink": "/docs/components/image",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/image.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Image",
+                "section": "Components",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Components",
+                "permalink": "/docs/components/"
+              },
+              "next": {
+                "title": "Lists",
+                "permalink": "/docs/components/lists"
+              }
+            },
+            {
+              "unversionedId": "components/lists",
+              "id": "components/lists",
+              "title": "Lists",
+              "description": "What if instead of 4 colors, we had 10 or even 100? How would we display them then? If you're already familiar with React, you might be tempted to add all the colors in an array and .map over them. This is a very common mistake for newcomers to React Native. While it may be fine to do on the web, in React Native you should avoid using map in the render. This is because mapping over an array is not optimized. React Native will attempt to render every single element in the array all at once, regardless of whether they are visible on the screen or not.",
+              "source": "@site/docs/components/lists.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/lists",
+              "permalink": "/docs/components/lists",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/lists.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Lists",
+                "section": "Components",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Image",
+                "permalink": "/docs/components/image"
+              }
+            },
+            {
+              "unversionedId": "components/styling",
+              "id": "components/styling",
+              "title": "Styling",
+              "description": "In React Native, all styling is done using inline styles. We use a StyleSheet from react-native to create the styles. Usually we add this styles constant at the bottom of the file, or in a separate file:",
+              "source": "@site/docs/components/styling.mdx",
+              "sourceDirName": "components",
+              "slug": "/components/styling",
+              "permalink": "/docs/components/styling",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/styling.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Styling",
+                "section": "Components",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic React Native Components",
+                "permalink": "/docs/components/basic-components"
+              },
+              "next": {
+                "title": "Components",
+                "permalink": "/docs/components/"
+              }
+            },
             {
               "unversionedId": "Introduction/about-javascript",
               "id": "Introduction/about-javascript",
@@ -42,6 +183,10 @@
               "previous": {
                 "title": "About React Native",
                 "permalink": "/docs/Introduction/about-react-native"
+              },
+              "next": {
+                "title": "What is Expo?",
+                "permalink": "/docs/Introduction/expo"
               }
             },
             {
@@ -71,6 +216,122 @@
               "next": {
                 "title": "About JavaScript",
                 "permalink": "/docs/Introduction/about-javascript"
+              }
+            },
+            {
+              "unversionedId": "Introduction/expo",
+              "id": "Introduction/expo",
+              "title": "What is Expo?",
+              "description": "Expo is a suite of tools for React Native that improves the developer experience.",
+              "source": "@site/docs/Introduction/expo.mdx",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/expo",
+              "permalink": "/docs/Introduction/expo",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/expo.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "What is Expo?",
+                "section": "Introduction",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "About JavaScript",
+                "permalink": "/docs/Introduction/about-javascript"
+              },
+              "next": {
+                "title": "Setup",
+                "permalink": "/docs/category/setup"
+              }
+            },
+            {
+              "unversionedId": "setup/debugging",
+              "id": "setup/debugging",
+              "title": "Debugging",
+              "description": "As developers, we spend a whole lot of time debugging, especially when learning something new. Let's look at some debugging tips for React Native.",
+              "source": "@site/docs/setup/debugging.mdx",
+              "sourceDirName": "setup",
+              "slug": "/setup/debugging",
+              "permalink": "/docs/setup/debugging",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/debugging.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Debugging",
+                "section": "Setup",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Install Linter",
+                "permalink": "/docs/setup/linter"
+              },
+              "next": {
+                "title": "Components",
+                "permalink": "/docs/category/components"
+              }
+            },
+            {
+              "unversionedId": "setup/getting-started",
+              "id": "setup/getting-started",
+              "title": "Getting Started",
+              "description": "The fastest way to get started with React Native is to us Expo and run the app on your device. Feel free to use the React Native docs or Expo docs for reference.",
+              "source": "@site/docs/setup/getting-started.mdx",
+              "sourceDirName": "setup",
+              "slug": "/setup/getting-started",
+              "permalink": "/docs/setup/getting-started",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/getting-started.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Getting Started",
+                "section": "Setup",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setup",
+                "permalink": "/docs/category/setup"
+              },
+              "next": {
+                "title": "Install Linter",
+                "permalink": "/docs/setup/linter"
+              }
+            },
+            {
+              "unversionedId": "setup/linter",
+              "id": "setup/linter",
+              "title": "Install Linter",
+              "description": "Although not mandatory, it is highly recommended to add a linter to your React Native project. Doing so not only helps to ensure a consistent code style throughout the project, but it also identifies errors and uncovers bad practices. Whether it's a personal or hobby project, I always set up linting and code formatting from the beginning when starting a new project.",
+              "source": "@site/docs/setup/linter.mdx",
+              "sourceDirName": "setup",
+              "slug": "/setup/linter",
+              "permalink": "/docs/setup/linter",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/linter.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Install Linter",
+                "section": "Setup",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/setup/getting-started"
+              },
+              "next": {
+                "title": "Debugging",
+                "permalink": "/docs/setup/debugging"
               }
             },
             {
@@ -118,6 +379,10 @@
                   {
                     "type": "doc",
                     "id": "Introduction/about-javascript"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/expo"
                   }
                 ],
                 "link": {
@@ -125,6 +390,66 @@
                   "description": "Introduction to React Native",
                   "slug": "/category/introduction",
                   "permalink": "/docs/category/introduction"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Setup",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "setup/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "setup/linter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "setup/debugging"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Setup development environment",
+                  "slug": "/category/setup",
+                  "permalink": "/docs/category/setup"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Components",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "components/basic-components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "components/styling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "components/components"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "components/image"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "components/lists"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Basic components",
+                  "slug": "/category/components",
+                  "permalink": "/docs/category/components"
                 }
               }
             ]
@@ -137,6 +462,42 @@
     "default": {
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
+        {
+          "id": "td-2",
+          "metadata": {
+            "permalink": "/blog/td-2",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2.mdx",
+            "source": "@site/blog/2023-05-11-TD2.mdx",
+            "title": "TD n°2 - Setup & Composants",
+            "description": "1. Create a new Expo project",
+            "date": "2023-05-11T00:00:00.000Z",
+            "formattedDate": "May 11, 2023",
+            "tags": [],
+            "readingTime": 2.25,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Youcef",
+                "title": "Professeur",
+                "url": "https://www.linkedin.com/in/youcefacheuk/",
+                "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+                "key": "youcef"
+              }
+            ],
+            "frontMatter": {
+              "slug": "td-2",
+              "title": "TD n°2 - Setup & Composants",
+              "authors": [
+                "youcef"
+              ]
+            },
+            "nextItem": {
+              "title": "TD n°1 - Les bases de JavaScript",
+              "permalink": "/blog/td-1"
+            }
+          },
+          "content": "# Setup\n\n1. Create a new Expo project\n2. Install eslint and prettier\n3. Run the app on your phone\n4. Try to run your app on a simulator\n\n# Exercise 1\n\nCreate a header with a text saying \"Here are my boxes\". The font size should be 24 and the font weight should be bold.\nBelow that, create a column of 4 rectangles vertically centered. Each rectangle should have a different color.\nInside the rectangle, please write the name of the color.\n\nFor example:\n```\nCyan: #2aa198\nBlue: #268bd2\nMagenta: #d33682\nOrange: #cb4b16\n```\n\n# Exercise 2\n\nCreate 3 squares that are vertically and horizontally centered. Each square should have a unique background color but all shared styles should only be defined once.\n\n# Exercise 3\n\nIn this exercise, you'll be using the flex property to create a layout for a profile screen. The screen will have a profile picture at the top, followed by the user's name and a short bio, and then a section for their posts.\nUse the Image component for the profile picture, and Text components for the user's name, bio, and posts.\nCreate a new style using StyleSheet and apply it to your components. Use the flex property to make sure that the posts section takes up the majority of the screen, while the profile picture, name, and bio take up less space.\n\n# Exercise 4\n\nIn this exercise, you will create a contact list using the FlatList component.\n\nCreate a new screen in your Expo project, let's call it ContactScreen.\nDefine an array of contact objects, each with a photo, a name and phoneNumber property.\nRender a FlatList that maps each of these contacts into a Text component displaying the contact's name and phone number.\nAdd the keyExtractor prop to the FlatList that returns a unique key string for each item.\nUse the ItemSeparatorComponent prop to render a separator between each item in the list.\n\n# Exercise 5\n\nFor this exercise, you'll modify the contact list from Exercise 1 to group the contacts by the first letter of their names using the SectionList component.\n\nCreate a new screen in your Expo project, let's call it SectionContactScreen.\nConvert your contacts array into a sectioned format that SectionList requires. It should be an array of objects, each with a title property (the first letter of the names) and a data property (an array of contacts with that initial).\nRender a SectionList. The renderItem prop should be a function that renders a Text component for each contact, and the renderSectionHeader prop should be a function that renders a Text component for each section title.\nAs in Exercise 1, include a keyExtractor prop and an ItemSeparatorComponent prop."
+        },
         {
           "id": "td-1",
           "metadata": {
@@ -165,6 +526,10 @@
               "authors": [
                 "youcef"
               ]
+            },
+            "prevItem": {
+              "title": "TD n°2 - Setup & Composants",
+              "permalink": "/blog/td-2"
             }
           },
           "content": "<img alt=\"JavaScript\" src=\"/img/javascript.png\" style={{width:\"50%\"}} />\n\n## FreeCodeCamp\n\nRendez-vous sur [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) et créez votre compte.\n\n## Tutoriel JavaScript\n\nL'objectif est de maîtriser :\n- Basic JavaScript => <b>https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/</b>\n- ES6 => <b>https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/</b>\n\n## Quiz\n\nLors du prochain cours, le 10/05/2023, vous aurez un quiz de 20 minutes sur JavaScript afin de valider vos connaissances."
@@ -173,6 +538,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "td-2",
             "td-1"
           ],
           "metadata": {
@@ -180,7 +546,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 1,
+            "totalCount": 2,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }

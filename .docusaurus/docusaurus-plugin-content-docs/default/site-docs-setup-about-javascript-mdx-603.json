@@ -1,0 +1,29 @@
+{
+  "unversionedId": "setup/about-javascript",
+  "id": "setup/about-javascript",
+  "title": "About JavaScript",
+  "description": "Let's see what's so special about JavaScript, what we can achieve with it, and what other technologies play well with it.",
+  "source": "@site/docs/setup/about-javascript.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/about-javascript",
+  "permalink": "/docs/setup/about-javascript",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/about-javascript.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "About JavaScript",
+    "section": "Setup",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About React Native",
+    "permalink": "/docs/setup/about-react-native"
+  },
+  "next": {
+    "title": "What is Expo?",
+    "permalink": "/docs/setup/expo"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "components/lists",
+  "id": "components/lists",
+  "title": "Lists",
+  "description": "What if instead of 4 colors, we had 10 or even 100? How would we display them then? If you're already familiar with React, you might be tempted to add all the colors in an array and .map over them. This is a very common mistake for newcomers to React Native. While it may be fine to do on the web, in React Native you should avoid using map in the render. This is because mapping over an array is not optimized. React Native will attempt to render every single element in the array all at once, regardless of whether they are visible on the screen or not.",
+  "source": "@site/docs/components/lists.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/lists",
+  "permalink": "/docs/components/lists",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/lists.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Lists",
+    "section": "Components",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Image",
+    "permalink": "/docs/components/image"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "setup/expo",
+  "id": "setup/expo",
+  "title": "What is Expo?",
+  "description": "Expo is a suite of tools for React Native that improves the developer experience.",
+  "source": "@site/docs/setup/expo.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/expo",
+  "permalink": "/docs/setup/expo",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/expo.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "What is Expo?",
+    "section": "Introduction",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About JavaScript",
+    "permalink": "/docs/setup/about-javascript"
+  }
+}

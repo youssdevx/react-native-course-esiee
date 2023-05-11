@@ -1,0 +1,29 @@
+{
+  "unversionedId": "setup/linter",
+  "id": "setup/linter",
+  "title": "Install Linter",
+  "description": "Although not mandatory, it is highly recommended to add a linter to your React Native project. Doing so not only helps to ensure a consistent code style throughout the project, but it also identifies errors and uncovers bad practices. Whether it's a personal or hobby project, I always set up linting and code formatting from the beginning when starting a new project.",
+  "source": "@site/docs/setup/linter.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/linter",
+  "permalink": "/docs/setup/linter",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/linter.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Install Linter",
+    "section": "Setup",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/setup/getting-started"
+  },
+  "next": {
+    "title": "Debugging",
+    "permalink": "/docs/setup/debugging"
+  }
+}

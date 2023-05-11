@@ -32,13 +32,115 @@
             "label": "About JavaScript",
             "href": "/docs/Introduction/about-javascript",
             "docId": "Introduction/about-javascript"
+          },
+          {
+            "type": "link",
+            "label": "What is Expo?",
+            "href": "/docs/Introduction/expo",
+            "docId": "Introduction/expo"
           }
         ],
         "href": "/docs/category/introduction"
+      },
+      {
+        "type": "category",
+        "label": "Setup",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/setup/getting-started",
+            "docId": "setup/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "Install Linter",
+            "href": "/docs/setup/linter",
+            "docId": "setup/linter"
+          },
+          {
+            "type": "link",
+            "label": "Debugging",
+            "href": "/docs/setup/debugging",
+            "docId": "setup/debugging"
+          }
+        ],
+        "href": "/docs/category/setup"
+      },
+      {
+        "type": "category",
+        "label": "Components",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Basic React Native Components",
+            "href": "/docs/components/basic-components",
+            "docId": "components/basic-components"
+          },
+          {
+            "type": "link",
+            "label": "Styling",
+            "href": "/docs/components/styling",
+            "docId": "components/styling"
+          },
+          {
+            "type": "link",
+            "label": "Components",
+            "href": "/docs/components/",
+            "docId": "components/components"
+          },
+          {
+            "type": "link",
+            "label": "Image",
+            "href": "/docs/components/image",
+            "docId": "components/image"
+          },
+          {
+            "type": "link",
+            "label": "Lists",
+            "href": "/docs/components/lists",
+            "docId": "components/lists"
+          }
+        ],
+        "href": "/docs/category/components"
       }
     ]
   },
   "docs": {
+    "components/basic-components": {
+      "id": "components/basic-components",
+      "title": "Basic React Native Components",
+      "description": "If you're already familiar with React then you've got a head start, lucky you! Before we dive into React Native, let's start by looking at this \"hello world\" React component:",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/components": {
+      "id": "components/components",
+      "title": "Components",
+      "description": "React (Native) is a component-based framework. This means that your app is made from lots of components that are nested within each other. You always have one root component (in our case it is our App component), but inside it we can have as many big or small components as we'd like.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/image": {
+      "id": "components/image",
+      "title": "Image",
+      "description": "Image is used to render images. Images may either be downloaded from the web, or imported as files, which are then bundled with the app.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/lists": {
+      "id": "components/lists",
+      "title": "Lists",
+      "description": "What if instead of 4 colors, we had 10 or even 100? How would we display them then? If you're already familiar with React, you might be tempted to add all the colors in an array and .map over them. This is a very common mistake for newcomers to React Native. While it may be fine to do on the web, in React Native you should avoid using map in the render. This is because mapping over an array is not optimized. React Native will attempt to render every single element in the array all at once, regardless of whether they are visible on the screen or not.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/styling": {
+      "id": "components/styling",
+      "title": "Styling",
+      "description": "In React Native, all styling is done using inline styles. We use a StyleSheet from react-native to create the styles. Usually we add this styles constant at the bottom of the file, or in a separate file:",
+      "sidebar": "tutorialSidebar"
+    },
     "Introduction/about-javascript": {
       "id": "Introduction/about-javascript",
       "title": "About JavaScript",
@@ -49,6 +151,30 @@
       "id": "Introduction/about-react-native",
       "title": "About React Native",
       "description": "Android vs iOS",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/expo": {
+      "id": "Introduction/expo",
+      "title": "What is Expo?",
+      "description": "Expo is a suite of tools for React Native that improves the developer experience.",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/debugging": {
+      "id": "setup/debugging",
+      "title": "Debugging",
+      "description": "As developers, we spend a whole lot of time debugging, especially when learning something new. Let's look at some debugging tips for React Native.",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/getting-started": {
+      "id": "setup/getting-started",
+      "title": "Getting Started",
+      "description": "The fastest way to get started with React Native is to us Expo and run the app on your device. Feel free to use the React Native docs or Expo docs for reference.",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/linter": {
+      "id": "setup/linter",
+      "title": "Install Linter",
+      "description": "Although not mandatory, it is highly recommended to add a linter to your React Native project. Doing so not only helps to ensure a consistent code style throughout the project, but it also identifies errors and uncovers bad practices. Whether it's a personal or hobby project, I always set up linting and code formatting from the beginning when starting a new project.",
       "sidebar": "tutorialSidebar"
     },
     "welcome": {

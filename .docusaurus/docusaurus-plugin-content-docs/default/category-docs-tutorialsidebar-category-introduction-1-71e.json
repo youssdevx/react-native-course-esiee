@@ -1,0 +1,16 @@
+{
+  "title": "Introduction",
+  "description": "Introduction to React Native",
+  "slug": "/category/introduction-1",
+  "permalink": "/docs/category/introduction-1",
+  "navigation": {
+    "previous": {
+      "title": "What is Expo?",
+      "permalink": "/docs/Introduction/expo"
+    },
+    "next": {
+      "title": "About React Native",
+      "permalink": "/docs/Introduction copy/about-react-native"
+    }
+  }
+}

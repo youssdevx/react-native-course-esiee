@@ -1,0 +1,50 @@
+---
+title: 'Install Linter'
+section: 'Setup'
+sidebar_position: 3
+---
+# Install a linter
+
+Although not mandatory, it is highly recommended to add a linter to your React Native project. Doing so not only helps to ensure a consistent code style throughout the project, but it also identifies errors and uncovers bad practices. Whether it's a personal or hobby project, I always set up linting and code formatting from the beginning when starting a new project.
+
+The go-to linter for JavaScript is called [eslint](https://eslint.org/). There are three main reasons you should always install a linter:
+
+1. **Enforce consistent code style** - double quotes or single? Trailing comma or no? Most experienced engineers have a preference one way or another, but ultimately most agree that it doesn't really matter, so long as it's consistent. With eslint we can set up these preferences once, and the whole project will be checked to ensure the same style is followed.
+2. **Catch mistakes** - it's easy to miss typos, unused variables and forgetting to return a variable from a function while developing. When integrating eslint to your code editor, you'll get helpful warnings and errors for these issues while you're writing your code. Saves a lot of debugging time!
+3. **Avoid bad practices** - JavaScript is a pretty amazing language in that it allows you to do pretty much anything. This is very powerful, but dangerous, because it leaves it up to us, the developers, to have some rules and order. Depending on the code style you do with (e.g. functional vs object oriented) there are many linting rules that help you enforce good practices that go with the code style you prefer.
+
+## Adding eslint and prettier - installation 
+
+https://zaferayan.medium.com/how-to-configure-eslint-and-prettier-for-expo-projects-fd78d4158590
+
+You can always configure your own linting rules of course, but I like to start with community presets.
+
+## Configure Prettier
+
+Prettier is another package complimentary to eslint, but it focuses on code _formatting_. It mostly deals how the code looks rather than its correctness. The great thing about prettier is that if you can turn on "format on save" or have a pre-commit hook that runs its before a commit so your code will always be formatted uniformly.
+
+Prettier has very few configuration options, because their mentality is to have as few variations as possible. I am definitely guilty of having a preference here. If you'd like your code to look exactly like mine in the example, add these prettier settings.
+
+https://prettier.io/docs/en/configuration.html
+
+Create another file in the root directory of your project and call it `.prettierrc`.
+
+https://prettier.io/docs/en/options.html
+
+## Adding eslint - adding the run script
+
+Now we have eslint installed and configured. But how to actually run it? Open the `package.json` in your project and add the following under the `scripts` section:
+
+```json
+"lint": "eslint ."
+```
+
+Now you can run `npm run lint` or `yarn lint` in your terminal and the linter will report both eslint and prettier issues.
+
+## Adding eslint - adding it to your code editor
+
+It's all well and good to lint your code on the command line, but ideally you'd have instant feedback while you're writing your code. Thankfully most code editors have an integration option for this.
+
+### VSCode
+
+Code => Preferences => Extentions => ESLint

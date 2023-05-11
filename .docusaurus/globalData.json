@@ -11,6 +11,31 @@
           "mainDocId": "welcome",
           "docs": [
             {
+              "id": "components/basic-components",
+              "path": "/docs/components/basic-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/components",
+              "path": "/docs/components/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/image",
+              "path": "/docs/components/image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/lists",
+              "path": "/docs/components/lists",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/styling",
+              "path": "/docs/components/styling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Introduction/about-javascript",
               "path": "/docs/Introduction/about-javascript",
               "sidebar": "tutorialSidebar"
@@ -21,6 +46,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Introduction/expo",
+              "path": "/docs/Introduction/expo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/debugging",
+              "path": "/docs/setup/debugging",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/getting-started",
+              "path": "/docs/setup/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/linter",
+              "path": "/docs/setup/linter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "welcome",
               "path": "/docs/welcome",
               "sidebar": "tutorialSidebar"
@@ -28,6 +73,16 @@
             {
               "id": "/category/introduction",
               "path": "/docs/category/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/setup",
+              "path": "/docs/category/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/components",
+              "path": "/docs/category/components",
               "sidebar": "tutorialSidebar"
             }
           ],

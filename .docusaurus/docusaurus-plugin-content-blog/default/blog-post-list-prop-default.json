@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "TD n°2 - Setup & Composants",
+      "permalink": "/blog/td-2"
+    },
+    {
       "title": "TD n°1 - Les bases de JavaScript",
       "permalink": "/blog/td-1"
     }

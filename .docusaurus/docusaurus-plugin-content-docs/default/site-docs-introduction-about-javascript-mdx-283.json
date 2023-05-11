@@ -21,5 +21,9 @@
   "previous": {
     "title": "About React Native",
     "permalink": "/docs/Introduction/about-react-native"
+  },
+  "next": {
+    "title": "What is Expo?",
+    "permalink": "/docs/Introduction/expo"
   }
 }

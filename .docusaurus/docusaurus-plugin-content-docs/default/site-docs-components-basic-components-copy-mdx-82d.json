@@ -1,0 +1,29 @@
+{
+  "unversionedId": "components/basic-components copy",
+  "id": "components/basic-components copy",
+  "title": "Basic React Native Components",
+  "description": "If you're already familiar with React then you've got a head start, lucky you! Before we dive into React Native, let's start by looking at this \"hello world\" React component:",
+  "source": "@site/docs/components/basic-components copy.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/basic-components copy",
+  "permalink": "/docs/components/basic-components copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/basic-components copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Basic React Native Components",
+    "section": "Components",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components",
+    "permalink": "/docs/category/components"
+  },
+  "next": {
+    "title": "Basic React Native Components",
+    "permalink": "/docs/components/basic-components"
+  }
+}

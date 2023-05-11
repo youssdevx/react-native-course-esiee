@@ -1,0 +1,29 @@
+{
+  "unversionedId": "components/image",
+  "id": "components/image",
+  "title": "Image",
+  "description": "Image is used to render images. Images may either be downloaded from the web, or imported as files, which are then bundled with the app.",
+  "source": "@site/docs/components/image.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/image",
+  "permalink": "/docs/components/image",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/components/image.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Image",
+    "section": "Components",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components",
+    "permalink": "/docs/components/"
+  },
+  "next": {
+    "title": "Lists",
+    "permalink": "/docs/components/lists"
+  }
+}

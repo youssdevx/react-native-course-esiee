@@ -1,0 +1,57 @@
+---
+slug: td-2
+title: TD n°2 - Setup & Composants
+authors: [youcef]
+---
+
+# TD n°2 - Setup & Composants
+
+# Setup
+
+1. Create a new Expo project
+2. Install eslint and prettier
+3. Run the app on your phone
+4. Try to run your app on a simulator
+
+# Exercise 1
+
+Create a header with a text saying "Here are my boxes". The font size should be 24 and the font weight should be bold.
+Below that, create a column of 4 rectangles vertically centered. Each rectangle should have a different color.
+Inside the rectangle, please write the name of the color.
+
+For example:
+```
+Cyan: #2aa198
+Blue: #268bd2
+Magenta: #d33682
+Orange: #cb4b16
+```
+
+# Exercise 2
+
+Create 3 squares that are vertically and horizontally centered. Each square should have a unique background color but all shared styles should only be defined once.
+
+# Exercise 3
+
+In this exercise, you'll be using the flex property to create a layout for a profile screen. The screen will have a profile picture at the top, followed by the user's name and a short bio, and then a section for their posts.
+Use the Image component for the profile picture, and Text components for the user's name, bio, and posts.
+Create a new style using StyleSheet and apply it to your components. Use the flex property to make sure that the posts section takes up the majority of the screen, while the profile picture, name, and bio take up less space.
+
+# Exercise 4
+
+In this exercise, you will create a contact list using the FlatList component.
+
+Create a new screen in your Expo project, let's call it ContactScreen.
+Define an array of contact objects, each with a photo, a name and phoneNumber property.
+Render a FlatList that maps each of these contacts into a Text component displaying the contact's name and phone number.
+Add the keyExtractor prop to the FlatList that returns a unique key string for each item.
+Use the ItemSeparatorComponent prop to render a separator between each item in the list.
+
+# Exercise 5
+
+For this exercise, you'll modify the contact list from Exercise 1 to group the contacts by the first letter of their names using the SectionList component.
+
+Create a new screen in your Expo project, let's call it SectionContactScreen.
+Convert your contacts array into a sectioned format that SectionList requires. It should be an array of objects, each with a title property (the first letter of the names) and a data property (an array of contacts with that initial).
+Render a SectionList. The renderItem prop should be a function that renders a Text component for each contact, and the renderSectionHeader prop should be a function that renders a Text component for each section title.
+As in Exercise 1, include a keyExtractor prop and an ItemSeparatorComponent prop.

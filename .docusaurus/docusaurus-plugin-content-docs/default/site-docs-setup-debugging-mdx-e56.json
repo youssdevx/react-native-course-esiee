@@ -1,0 +1,29 @@
+{
+  "unversionedId": "setup/debugging",
+  "id": "setup/debugging",
+  "title": "Debugging",
+  "description": "As developers, we spend a whole lot of time debugging, especially when learning something new. Let's look at some debugging tips for React Native.",
+  "source": "@site/docs/setup/debugging.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/debugging",
+  "permalink": "/docs/setup/debugging",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup/debugging.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Debugging",
+    "section": "Setup",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install Linter",
+    "permalink": "/docs/setup/linter"
+  },
+  "next": {
+    "title": "Components",
+    "permalink": "/docs/category/components"
+  }
+}
