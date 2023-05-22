@@ -1,0 +1,29 @@
+{
+  "unversionedId": "hooks/hooks-intro",
+  "id": "hooks/hooks-intro",
+  "title": "Hooks intro",
+  "description": "Introduction to React Hooks",
+  "source": "@site/docs/hooks/hooks-intro.mdx",
+  "sourceDirName": "hooks",
+  "slug": "/hooks/hooks-intro",
+  "permalink": "/docs/hooks/hooks-intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hooks/hooks-intro.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Hooks intro",
+    "section": "Hooks",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hooks",
+    "permalink": "/docs/category/hooks"
+  },
+  "next": {
+    "title": "useState",
+    "permalink": "/docs/hooks/use-state"
+  }
+}

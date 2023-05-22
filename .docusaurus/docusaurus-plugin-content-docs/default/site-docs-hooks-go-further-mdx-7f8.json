@@ -1,0 +1,29 @@
+{
+  "unversionedId": "hooks/go-further",
+  "id": "hooks/go-further",
+  "title": "Go further",
+  "description": "Official guide on Hooks",
+  "source": "@site/docs/hooks/go-further.mdx",
+  "sourceDirName": "hooks",
+  "slug": "/hooks/go-further",
+  "permalink": "/docs/hooks/go-further",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hooks/go-further.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Go further",
+    "section": "Hooks",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useEffect",
+    "permalink": "/docs/hooks/use-effect"
+  },
+  "next": {
+    "title": "Forms",
+    "permalink": "/docs/category/forms"
+  }
+}

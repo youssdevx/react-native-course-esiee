@@ -1,0 +1,25 @@
+{
+  "unversionedId": "context/storage",
+  "id": "context/storage",
+  "title": "Persisting Data & Async Storage",
+  "description": "The Need for Data Persistence",
+  "source": "@site/docs/context/storage.mdx",
+  "sourceDirName": "context",
+  "slug": "/context/storage",
+  "permalink": "/docs/context/storage",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/context/storage.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Persisting Data & Async Storage",
+    "section": "Context",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Context",
+    "permalink": "/docs/context/"
+  }
+}

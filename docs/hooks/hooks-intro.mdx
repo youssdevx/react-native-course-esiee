@@ -1,0 +1,51 @@
+---
+title: 'Hooks intro'
+section: 'Hooks'
+sidebar_position: 1
+---
+
+### Introduction to React Hooks
+
+React Hooks are a feature introduced in React 16.8 that allow you to use state and other React features without writing a class component. Before Hooks, state and lifecycle methods were only available in class components. However, Hooks provide a way to use these features in functional components, which have become more popular due to their simplicity and ease of testing.
+
+Official guide on hooks => https://react.dev/reference/react
+
+**Why Hooks?**
+
+There are several reasons why Hooks were introduced:
+
+1. **Reusing Stateful Logic**: Before Hooks, patterns like render props and higher-order components were used to share stateful logic, but these patterns could lead to complex and hard-to-understand components. Hooks make it easier to reuse stateful logic between components.
+
+2. **Complex Components**: As components grow in complexity, related code often gets scattered across different lifecycle methods, making it hard to follow. Hooks allow you to split one component into smaller functions based on what pieces are related, rather than forcing a split based on lifecycle methods.
+
+3. **Classes are Confusing**: The `this` keyword in JavaScript is confusing for both humans and machines. Hooks allow developers to avoid using `this` altogether.
+
+**Basic Hooks**
+
+There are three basic Hooks that you will likely use in every React component:
+
+- **useState**: This Hook allows you to add React state to functional components.
+  
+- **useEffect**: This Hook allows you to perform side effects in function components. It serves the same purpose as `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in React classes.
+
+- **useContext**: This Hook allows you to subscribe to React context without introducing nesting in your code.
+
+**Additional Hooks**
+
+In addition to the basic Hooks, there are some additional Hooks that you might find useful:
+
+- **useReducer**: An alternative to useState. Accepts a reducer of type `(state, action) => newState`, and returns the current state paired with a dispatch method.
+
+- **useCallback**: Returns a memoized version of the callback that only changes if one of the dependencies has changed.
+
+- **useMemo**: Returns a memoized value.
+
+- **useRef**: Returns a mutable ref object whose `.current` property is initialized to the passed argument (`initialValue`). The returned object will persist for the full lifetime of the component.
+
+- **useImperativeHandle**: Customizes the instance value that is exposed to parent components when using `ref`.
+
+- **useLayoutEffect**: The signature is identical to `useEffect`, but it fires synchronously after all DOM mutations. Use this to read layout from the DOM and synchronously re-render.
+
+- **useDebugValue**: Can be used to display a label for custom hooks in React DevTools.
+
+Remember that Hooks are completely opt-in, and you don’t have to learn or use Hooks right now if you don’t want to. They have no breaking changes and the class components you know and love will still work. However, Hooks are now considered the future of writing React applications, and most new code will be written with Hooks. 

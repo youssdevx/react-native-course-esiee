@@ -1,0 +1,29 @@
+{
+  "unversionedId": "navigation/add-navigation",
+  "id": "navigation/add-navigation",
+  "title": "Adding navigation",
+  "description": "Install React Navigation dependencies",
+  "source": "@site/docs/navigation/add-navigation.mdx",
+  "sourceDirName": "navigation",
+  "slug": "/navigation/add-navigation",
+  "permalink": "/docs/navigation/add-navigation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/navigation/add-navigation.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Adding navigation",
+    "section": "Navigation",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation Intro",
+    "permalink": "/docs/navigation/navigation-intro"
+  },
+  "next": {
+    "title": "Navigation guides",
+    "permalink": "/docs/navigation/navigation-guides"
+  }
+}

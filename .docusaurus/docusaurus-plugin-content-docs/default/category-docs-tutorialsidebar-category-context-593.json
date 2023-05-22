@@ -1,0 +1,16 @@
+{
+  "title": "Context",
+  "description": "Context",
+  "slug": "/category/context",
+  "permalink": "/docs/category/context",
+  "navigation": {
+    "previous": {
+      "title": "Handle user input",
+      "permalink": "/docs/forms/handle-user-input"
+    },
+    "next": {
+      "title": "React Context",
+      "permalink": "/docs/context/"
+    }
+  }
+}

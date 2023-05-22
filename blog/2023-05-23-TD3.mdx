@@ -1,0 +1,108 @@
+---
+slug: td-3
+title: TD n°3 - Navigation & Hooks
+authors: [youcef]
+---
+
+# TD n°3 - Navigation & Hooks
+
+### Setup
+
+1. Create a new Expo project
+2. Install eslint and prettier
+3. Run the app on your phone
+4. Try to run your app on a simulator
+
+### Exercise 1: Adding Navigation to an Expo App
+
+Objective: Implement navigation in an Expo app using React Navigation.
+
+Instructions:
+1. Create a new Expo app.
+2. Install React Navigation packages
+3. Create two screens: `HomeScreen` and `DetailsScreen`.
+4. Set up a Stack Navigator in your app to navigate between the screens.
+5. Configure the Stack Navigator to show the `HomeScreen` as the initial route.
+6. Add a button in the `HomeScreen` that navigates to the `DetailsScreen` when pressed.
+
+### Exercise 2: Creating Screens and Navigating Between Them
+
+Objective: Create multiple screens and navigate between them using React Navigation.
+
+Instructions:
+1. Add two more screens to your Expo app: `ProfileScreen` and `SettingsScreen`.
+2. Create a Bottom Tab Navigator to switch between the screens.
+3. Configure the Tab Navigator to show the `HomeScreen` as the initial route.
+4. Add buttons or icons to each screen that navigate to the corresponding screen when pressed.
+
+### Exercise 3: Passing Parameters to Routes and Configuring Header Bar
+
+Objective: Pass parameters to routes and configure the header bar in a React Native app.
+
+Instructions:
+1. Modify the `DetailsScreen` to receive a parameter when navigating to it.
+2. Pass a parameter from the `HomeScreen` to the `DetailsScreen` when navigating.
+3. Display the received parameter on the `DetailsScreen`.
+4. Configure the header bar of the `DetailsScreen` to display a title based on the received parameter.
+5. Add a header button to the `DetailsScreen` that performs a specific action when pressed.
+
+### Exercise 4: Counter App
+
+Objective: Create a simple counter application using React Native and the `useState` hook. The counter should display a number and have two buttons: one for incrementing the count and another for decrementing it.
+
+Instructions:
+1. Create a new Expo app or use the current one.
+2. Create a functional component called `CounterApp`.
+3. Import the necessary React Native components (`Text`, `View`, `Button`, etc.) from the `react-native` package.
+4. Inside the `CounterApp` component, use the `useState` hook to define a state variable called `count` and a function called `setCount` to update it.
+5. Render a `View` component that contains a `Text` component displaying the current value of `count`.
+6. Add two `Button` components below the `Text` component: one with the label "+" and another with the label "-".
+7. Attach `onPress` handlers to each button that call the appropriate function to increment or decrement the `count` state variable using `setCount`.
+8. Style the components as desired to improve the user interface.
+9. Test the application in the Expo client or simulator.
+
+### Exercise 5: Toggle Switch
+
+Objective: Create a toggle switch component using React Native and the `useState` hook. The toggle switch should have an initial state (on/off) and change its state when the user taps on it.
+
+Instructions:
+1. Create a new Expo app or use the current one.
+2. Define a functional component called `ToggleSwitch`.
+3. Import the necessary React Native components (`Text`, `View`, `TouchableOpacity`, etc.) from the `react-native` package.
+4. Inside the `ToggleSwitch` component, use the `useState` hook to define a state variable called `isOn` and a function called `setIsOn` to update it.
+5. Render a `View` component that represents the toggle switch.
+6. Inside the `View` component, render a `Text` component displaying the current state (`isOn`).
+7. Add a `TouchableOpacity` component inside the `View` component that wraps the entire toggle switch.
+8. Attach an `onPress` handler to the `TouchableOpacity` component that calls the `setIsOn` function to toggle the `isOn` state variable.
+9. Style the components to create a visual representation of the toggle switch, such as using different colors or icons to represent the different states.
+10. Test the toggle switch component in the Expo client or simulator.
+
+### Exercise 6: Random Quote Generator
+
+Objective: Create a simple random quote generator application using React Native and the useEffect hook. The application should fetch a random quote from an API and display it on the screen.
+
+Instructions:
+1. Create a functional component called QuoteGenerator.
+2. Import the necessary React Native components (Text, View, etc.) from the react-native package.
+3. Inside the QuoteGenerator component, use the useState hook to define a state variable called quote and a function called setQuote to update it.
+4. Use the useEffect hook to fetch a random quote from the API https://type.fit/api/quotes when the component mounts. You can use the fetch function or a library like Axios to make the API call.
+5. Update the quote state variable with the fetched quote.
+6. Render a View component that contains a Text component displaying the current value of the quote state variable.
+7. Style the components as desired to improve the user interface.
+8. Test the application in the Expo client or simulator.
+
+### Exercise 7: Real-time Weather Updates
+
+Objective: Create a real-time weather update application using React Native and the useEffect hook. The application should fetch weather data from an API and display it on the screen, updating the data at regular intervals.
+
+Instructions:
+
+1. Create a new Expo app or use the current one.
+2. Define a functional component called WeatherApp.
+3. Import the necessary React Native components (Text, View, etc.) from the react-native package.
+4. Inside the WeatherApp component, use the useState hook to define a state variable called weatherData and a function called setWeatherData to update it.
+5. Use the useEffect hook to fetch weather data from the API https://open-meteo.com/ when the component mounts and at regular intervals (e.g., every 5 minutes). You can use the fetch function or a library like Axios to make the API call.
+6. Update the weatherData state variable with the fetched weather data.
+7. Render a View component that contains Text components displaying the relevant weather information from the weatherData state variable (e.g., temperature, humidity, etc.).
+8. Style the components as desired to improve the user interface.
+9. Test the application in the Expo client or simulator.

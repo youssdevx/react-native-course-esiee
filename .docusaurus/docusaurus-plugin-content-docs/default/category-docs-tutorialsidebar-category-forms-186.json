@@ -1,0 +1,16 @@
+{
+  "title": "Forms",
+  "description": "Forms",
+  "slug": "/category/forms",
+  "permalink": "/docs/category/forms",
+  "navigation": {
+    "previous": {
+      "title": "Go further",
+      "permalink": "/docs/hooks/go-further"
+    },
+    "next": {
+      "title": "Forms Intro",
+      "permalink": "/docs/forms/forms-intro"
+    }
+  }
+}

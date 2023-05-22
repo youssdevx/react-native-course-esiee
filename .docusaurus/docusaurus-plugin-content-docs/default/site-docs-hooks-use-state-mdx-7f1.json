@@ -1,0 +1,29 @@
+{
+  "unversionedId": "hooks/use-state",
+  "id": "hooks/use-state",
+  "title": "useState",
+  "description": "---",
+  "source": "@site/docs/hooks/use-state.mdx",
+  "sourceDirName": "hooks",
+  "slug": "/hooks/use-state",
+  "permalink": "/docs/hooks/use-state",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hooks/use-state.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "useState",
+    "section": "Hooks",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hooks intro",
+    "permalink": "/docs/hooks/hooks-intro"
+  },
+  "next": {
+    "title": "useEffect",
+    "permalink": "/docs/hooks/use-effect"
+  }
+}

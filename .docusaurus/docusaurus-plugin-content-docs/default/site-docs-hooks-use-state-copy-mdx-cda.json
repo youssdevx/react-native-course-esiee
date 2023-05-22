@@ -1,0 +1,29 @@
+{
+  "unversionedId": "hooks/use-state copy",
+  "id": "hooks/use-state copy",
+  "title": "useState",
+  "description": "---",
+  "source": "@site/docs/hooks/use-state copy.mdx",
+  "sourceDirName": "hooks",
+  "slug": "/hooks/use-state copy",
+  "permalink": "/docs/hooks/use-state copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hooks/use-state copy.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "useState",
+    "section": "Hooks",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hooks intro",
+    "permalink": "/docs/hooks/hooks-intro"
+  },
+  "next": {
+    "title": "useState",
+    "permalink": "/docs/hooks/use-state"
+  }
+}

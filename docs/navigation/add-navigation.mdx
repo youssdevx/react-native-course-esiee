@@ -1,0 +1,98 @@
+---
+title: 'Adding navigation'
+section: 'Navigation'
+sidebar_position: 2
+---
+
+
+## Install React Navigation dependencies
+
+Follow this guide => https://reactnavigation.org/docs/getting-started
+
+Install the necessary packages for React Navigation by running the following command:
+```
+yarn add @react-navigation/native
+```
+This will install the core dependencies required for React Navigation to work with Expo.
+
+## Configure navigation
+Create a new directory called "navigation" inside the "src" folder of your project. Inside the "navigation" directory, create a new file called "AppNavigator.js". Open the file and add the following code:
+
+```javascript
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import HomeScreen from '../screens/HomeScreen';
+import DetailsScreen from '../screens/DetailsScreen';
+
+const Stack = createStackNavigator();
+
+const AppNavigator = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Details" component={DetailsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+export default AppNavigator;
+```
+
+In this example, we create a basic navigation structure with two screens: "Home" and "Details". You can replace these screens with your own screen components.
+
+## Create screen components
+Create two new files inside the "src/screens" directory: "HomeScreen.js" and "DetailsScreen.js". In each file, add a basic React component, like this:
+
+HomeScreen.js:
+```javascript
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const HomeScreen = () => {
+  return (
+    <View>
+      <Text>Welcome to the Home Screen!</Text>
+    </View>
+  );
+};
+
+export default HomeScreen;
+```
+
+DetailsScreen.js:
+```javascript
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const DetailsScreen = () => {
+  return (
+    <View>
+      <Text>Welcome to the Details Screen!</Text>
+    </View>
+  );
+};
+
+export default DetailsScreen;
+```
+
+## Update App.js
+Open the "App.js" file in the root of your project and replace the existing code with the following:
+
+```javascript
+import React from 'react';
+import AppNavigator from './src/navigation/AppNavigator';
+
+const App = () => {
+  return <AppNavigator />;
+};
+
+export default App;
+```
+
+## Conclusion
+
+That's it! You have successfully added navigation to your Expo project using React Navigation. You can now customize and expand your navigation structure by adding more screens and configuring navigation options. Happy coding!

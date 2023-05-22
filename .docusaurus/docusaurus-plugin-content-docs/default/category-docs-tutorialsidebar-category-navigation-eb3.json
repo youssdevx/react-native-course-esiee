@@ -1,0 +1,16 @@
+{
+  "title": "Navigation",
+  "description": "Navigation",
+  "slug": "/category/navigation",
+  "permalink": "/docs/category/navigation",
+  "navigation": {
+    "previous": {
+      "title": "Lists",
+      "permalink": "/docs/components/lists"
+    },
+    "next": {
+      "title": "Navigation Intro",
+      "permalink": "/docs/navigation/navigation-intro"
+    }
+  }
+}

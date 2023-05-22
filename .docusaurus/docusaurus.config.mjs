@@ -24,7 +24,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/youcef/Projects/react-native-course-esiee/sidebars.js",
+          "sidebarPath": "/Users/youcef/Projects/esiee/react-native-course-esiee/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -32,7 +32,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/youcef/Projects/react-native-course-esiee/src/css/custom.css"
+          "customCss": "/Users/youcef/Projects/esiee/react-native-course-esiee/src/css/custom.css"
         }
       }
     ]

@@ -36,6 +36,51 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "context/context",
+              "path": "/docs/context/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "context/storage",
+              "path": "/docs/context/storage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "forms/basic-form-components",
+              "path": "/docs/forms/basic-form-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "forms/forms-intro",
+              "path": "/docs/forms/forms-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "forms/handle-user-input",
+              "path": "/docs/forms/handle-user-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hooks/go-further",
+              "path": "/docs/hooks/go-further",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hooks/hooks-intro",
+              "path": "/docs/hooks/hooks-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hooks/use-effect",
+              "path": "/docs/hooks/use-effect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hooks/use-state",
+              "path": "/docs/hooks/use-state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Introduction/about-javascript",
               "path": "/docs/Introduction/about-javascript",
               "sidebar": "tutorialSidebar"
@@ -48,6 +93,21 @@
             {
               "id": "Introduction/expo",
               "path": "/docs/Introduction/expo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "navigation/add-navigation",
+              "path": "/docs/navigation/add-navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "navigation/navigation-guides",
+              "path": "/docs/navigation/navigation-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "navigation/navigation-intro",
+              "path": "/docs/navigation/navigation-intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -83,6 +143,26 @@
             {
               "id": "/category/components",
               "path": "/docs/category/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/navigation",
+              "path": "/docs/category/navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hooks",
+              "path": "/docs/category/hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/forms",
+              "path": "/docs/category/forms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/context",
+              "path": "/docs/category/context",
               "sidebar": "tutorialSidebar"
             }
           ],

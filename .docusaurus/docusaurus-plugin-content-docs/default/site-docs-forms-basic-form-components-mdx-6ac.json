@@ -1,0 +1,29 @@
+{
+  "unversionedId": "forms/basic-form-components",
+  "id": "forms/basic-form-components",
+  "title": "Basic form components",
+  "description": "Introduction to Basic Form Components",
+  "source": "@site/docs/forms/basic-form-components.mdx",
+  "sourceDirName": "forms",
+  "slug": "/forms/basic-form-components",
+  "permalink": "/docs/forms/basic-form-components",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/forms/basic-form-components.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Basic form components",
+    "section": "Forms",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Forms Intro",
+    "permalink": "/docs/forms/forms-intro"
+  },
+  "next": {
+    "title": "Handle user input",
+    "permalink": "/docs/forms/handle-user-input"
+  }
+}

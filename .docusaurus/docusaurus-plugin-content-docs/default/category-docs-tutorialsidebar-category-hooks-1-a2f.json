@@ -1,0 +1,16 @@
+{
+  "title": "Hooks",
+  "description": "Hooks",
+  "slug": "/category/hooks-1",
+  "permalink": "/docs/category/hooks-1",
+  "navigation": {
+    "previous": {
+      "title": "context",
+      "permalink": "/docs/context/"
+    },
+    "next": {
+      "title": "Hooks intro",
+      "permalink": "/docs/hooks/hooks-intro"
+    }
+  }
+}

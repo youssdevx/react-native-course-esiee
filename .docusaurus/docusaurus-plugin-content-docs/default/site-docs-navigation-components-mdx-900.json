@@ -1,0 +1,29 @@
+{
+  "unversionedId": "navigation/components",
+  "id": "navigation/components",
+  "title": "Components",
+  "description": "React (Native) is a component-based framework. This means that your app is made from lots of components that are nested within each other. You always have one root component (in our case it is our App component), but inside it we can have as many big or small components as we'd like.",
+  "source": "@site/docs/navigation/components.mdx",
+  "sourceDirName": "navigation",
+  "slug": "/navigation/components",
+  "permalink": "/docs/navigation/components",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/navigation/components.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Components",
+    "section": "Components",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Styling",
+    "permalink": "/docs/navigation/styling"
+  },
+  "next": {
+    "title": "Image",
+    "permalink": "/docs/navigation/image"
+  }
+}

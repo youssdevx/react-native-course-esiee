@@ -107,6 +107,114 @@
           }
         ],
         "href": "/docs/category/components"
+      },
+      {
+        "type": "category",
+        "label": "Navigation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Navigation Intro",
+            "href": "/docs/navigation/navigation-intro",
+            "docId": "navigation/navigation-intro"
+          },
+          {
+            "type": "link",
+            "label": "Adding navigation",
+            "href": "/docs/navigation/add-navigation",
+            "docId": "navigation/add-navigation"
+          },
+          {
+            "type": "link",
+            "label": "Navigation guides",
+            "href": "/docs/navigation/navigation-guides",
+            "docId": "navigation/navigation-guides"
+          }
+        ],
+        "href": "/docs/category/navigation"
+      },
+      {
+        "type": "category",
+        "label": "Hooks",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Hooks intro",
+            "href": "/docs/hooks/hooks-intro",
+            "docId": "hooks/hooks-intro"
+          },
+          {
+            "type": "link",
+            "label": "useState",
+            "href": "/docs/hooks/use-state",
+            "docId": "hooks/use-state"
+          },
+          {
+            "type": "link",
+            "label": "useEffect",
+            "href": "/docs/hooks/use-effect",
+            "docId": "hooks/use-effect"
+          },
+          {
+            "type": "link",
+            "label": "Go further",
+            "href": "/docs/hooks/go-further",
+            "docId": "hooks/go-further"
+          }
+        ],
+        "href": "/docs/category/hooks"
+      },
+      {
+        "type": "category",
+        "label": "Forms",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Forms Intro",
+            "href": "/docs/forms/forms-intro",
+            "docId": "forms/forms-intro"
+          },
+          {
+            "type": "link",
+            "label": "Basic form components",
+            "href": "/docs/forms/basic-form-components",
+            "docId": "forms/basic-form-components"
+          },
+          {
+            "type": "link",
+            "label": "Handle user input",
+            "href": "/docs/forms/handle-user-input",
+            "docId": "forms/handle-user-input"
+          }
+        ],
+        "href": "/docs/category/forms"
+      },
+      {
+        "type": "category",
+        "label": "Context",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "React Context",
+            "href": "/docs/context/",
+            "docId": "context/context"
+          },
+          {
+            "type": "link",
+            "label": "Persisting Data & Async Storage",
+            "href": "/docs/context/storage",
+            "docId": "context/storage"
+          }
+        ],
+        "href": "/docs/category/context"
       }
     ]
   },
@@ -141,6 +249,60 @@
       "description": "In React Native, all styling is done using inline styles. We use a StyleSheet from react-native to create the styles. Usually we add this styles constant at the bottom of the file, or in a separate file:",
       "sidebar": "tutorialSidebar"
     },
+    "context/context": {
+      "id": "context/context",
+      "title": "React Context",
+      "description": "Sharing State Between Components",
+      "sidebar": "tutorialSidebar"
+    },
+    "context/storage": {
+      "id": "context/storage",
+      "title": "Persisting Data & Async Storage",
+      "description": "The Need for Data Persistence",
+      "sidebar": "tutorialSidebar"
+    },
+    "forms/basic-form-components": {
+      "id": "forms/basic-form-components",
+      "title": "Basic form components",
+      "description": "Introduction to Basic Form Components",
+      "sidebar": "tutorialSidebar"
+    },
+    "forms/forms-intro": {
+      "id": "forms/forms-intro",
+      "title": "Forms Intro",
+      "description": "Understanding the Need for Forms in Mobile Apps",
+      "sidebar": "tutorialSidebar"
+    },
+    "forms/handle-user-input": {
+      "id": "forms/handle-user-input",
+      "title": "Handle user input",
+      "description": "Introduction to User Input and Form State Management",
+      "sidebar": "tutorialSidebar"
+    },
+    "hooks/go-further": {
+      "id": "hooks/go-further",
+      "title": "Go further",
+      "description": "Official guide on Hooks",
+      "sidebar": "tutorialSidebar"
+    },
+    "hooks/hooks-intro": {
+      "id": "hooks/hooks-intro",
+      "title": "Hooks intro",
+      "description": "Introduction to React Hooks",
+      "sidebar": "tutorialSidebar"
+    },
+    "hooks/use-effect": {
+      "id": "hooks/use-effect",
+      "title": "useEffect",
+      "description": "Introduction to useEffect",
+      "sidebar": "tutorialSidebar"
+    },
+    "hooks/use-state": {
+      "id": "hooks/use-state",
+      "title": "useState",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
     "Introduction/about-javascript": {
       "id": "Introduction/about-javascript",
       "title": "About JavaScript",
@@ -157,6 +319,24 @@
       "id": "Introduction/expo",
       "title": "What is Expo?",
       "description": "Expo is a suite of tools for React Native that improves the developer experience.",
+      "sidebar": "tutorialSidebar"
+    },
+    "navigation/add-navigation": {
+      "id": "navigation/add-navigation",
+      "title": "Adding navigation",
+      "description": "Install React Navigation dependencies",
+      "sidebar": "tutorialSidebar"
+    },
+    "navigation/navigation-guides": {
+      "id": "navigation/navigation-guides",
+      "title": "Navigation guides",
+      "description": "Moving between screens",
+      "sidebar": "tutorialSidebar"
+    },
+    "navigation/navigation-intro": {
+      "id": "navigation/navigation-intro",
+      "title": "Navigation Intro",
+      "description": "Now it's time to add navigation to our app. Let's start with adding a new page where we could list multiple color schemes as a list, and then navigate to a new page to view their details.",
       "sidebar": "tutorialSidebar"
     },
     "setup/debugging": {

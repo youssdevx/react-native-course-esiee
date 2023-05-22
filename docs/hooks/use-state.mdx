@@ -1,0 +1,86 @@
+---
+title: 'useState'
+section: 'Hooks'
+sidebar_position: 2
+---
+
+---
+
+### Overview of useState Hook
+
+The `useState` hook is one of the most frequently used hooks in React. It allows you to add state to your functional components.
+
+**Understanding State in React**
+
+In React, "state" refers to a component's local state -- data that can change over time, and affect what is rendered by the component. For example, the text in an input field, whether a button is checked, or data fetched from an API can all be examples of state.
+
+Prior to React Hooks, state was only available in class components. You would initialize state in the constructor, and then call `this.setState()` to change it. But with the `useState` hook, you can now add state to functional components.
+
+**Basic Usage of useState**
+
+Here's a simple example of how to use the `useState` hook:
+
+```jsx
+import React, { useState } from 'react';
+import { View, Text } from 'react-native';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <View>
+      <Text>You clicked {count} times</Text>
+      <Button title="Click Me" onPress={() => setCount(count + 1)} />
+    </View>
+  );
+}
+```
+
+In this example, `useState` is called with the initial state. In this case, our initial state is `0` because our counter starts from zero. `useState` returns a pair: the current state value (`count`) and a function that lets you update it (`setCount`).
+
+**Understanding the Array Destructuring**
+
+You might be wondering about the syntax `[count, setCount] = useState(0)`. This is called array destructuring. It's a way to unpack values from an array (or properties from objects) into distinct variables. 
+
+In this case, `useState` returns an array with two elements, and we're using array destructuring to assign names to those elements: the current state value, and a function to update the state.
+
+**Updating the State**
+
+To update the state, you can call the second returned function (`setCount` in the above example). When you call this function, the component will re-render with the new state. 
+
+### Understanding useState
+
+The `useState` hook is a fundamental part of React that enables you to manage and update the state within a function component. Having a clear understanding of how `useState` works is essential for effectively creating dynamic applications with React. 
+
+**How useState works**
+
+When you call `useState`, you provide the initial state as an argument and it returns an array with two elements. The first element is the current state value, and the second element is a function to update this state value.
+
+```jsx
+const [state, setState] = useState(initialState);
+```
+
+The `setState` function is used to update the state. When you call this function, the component will re-render with the new state. It's important to note that `setState` does not merge the new and old state as the `this.setState` method does in class components. Instead, it replaces the old state with the new state.
+
+**Exploring State in React Native**
+
+In React, state is a way to store variable data that can change over time and affect what your component renders. It's local to the component and can't be accessed from other components unless it's passed down through props. 
+
+The state initialized with `useState` is preserved between re-renders, meaning that during the lifetime of a component, the state will stay the same unless it's explicitly changed with the `setState` function.
+
+**Difference between Props and State**
+
+Props (short for properties) and state are both plain JavaScript objects. While both of them hold information that influences the output of render, they are different in one important way: props get passed to the component similar to function parameters whereas state is managed within the component, similar to variables declared within a function.
+
+Here are some of the main differences between props and state:
+
+- Props are passed into a component from the parent. State is managed within the component.
+- Props are read-only. You should never try to modify props from within a component. State is read-write. You can update state using the `setState` function.
+- Changes to either props or state will cause the component to re-render.
+- Props can be used to pass data and event handlers down to child components.
+
+Understanding the difference between props and state, and when to use each, is an important part of mastering React and React Native.
+
+### Go further 
+
+https://react.dev/reference/react/useState

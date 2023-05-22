@@ -1,0 +1,71 @@
+---
+title: 'Basic form components'
+section: 'Forms'
+sidebar_position: 2
+---
+
+### Introduction to Basic Form Components
+
+   React Native provides several built-in components to build forms in a mobile application. In this lesson, we will explore four basic form components: TextInput, Picker, Switch, and CheckBox.
+   
+   TextInput, Picker, Switch, and CheckBox are basic form components in React Native that allow users to interact with your app. Understanding these components and how to use them effectively is key to building robust forms.
+
+### TextInput
+
+   TextInput is a foundational component for inputting text into the app via a keyboard. Common uses include username, password, and email inputs. Here's a simple example of how to use TextInput:
+
+   ```jsx
+   <TextInput
+     style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+     onChangeText={text => onChangeText(text)}
+     value={value}
+   />
+   ```
+
+   In this example, `onChangeText` is a function that updates the state every time the text changes, and `value` is the current text.
+
+### Picker
+
+   Picker is a component for rendering a drop-down menu. It is useful when you have multiple predefined options to choose from. A simple example of a picker might look like this:
+
+   ```jsx
+   <Picker
+     selectedValue={selectedValue}
+     onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
+   >
+     <Picker.Item label="Option 1" value="1" />
+     <Picker.Item label="Option 2" value="2" />
+   </Picker>
+   ```
+
+   In this example, `selectedValue` is the currently selected value and `onValueChange` is a function that updates the state when a new value is selected.
+
+### Switch
+
+   The Switch component is used for binary settings, such as turning an option on or off. A simple example of a switch might look like this:
+
+   ```jsx
+   <Switch
+     trackColor={{ false: "#767577", true: "#81b0ff" }}
+     thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
+     ios_backgroundColor="#3e3e3e"
+     onValueChange={toggleSwitch}
+     value={isEnabled}
+   />
+   ```
+
+   Here, `isEnabled` is a boolean that represents the current state of the switch (on/off), and `toggleSwitch` is a function that updates the state when the switch is toggled.
+
+### CheckBox
+
+   The CheckBox component is used for selecting multiple options from a set. A simple CheckBox in React Native might look like this:
+
+   ```jsx
+   <CheckBox
+     value={isSelected}
+     onValueChange={setSelection}
+     style={{ alignSelf: "center" }}
+   />
+   ```
+
+   Here, `isSelected` is a boolean that indicates whether the checkbox is selected, and `setSelection` is a function that updates the state when the checkbox is selected or deselected.

@@ -1,0 +1,36 @@
+{
+  "permalink": "/blog/td-2-solutions",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2-solutions.mdx",
+  "source": "@site/blog/2023-05-11-TD2-solutions.mdx",
+  "title": "TD n°2 - Setup & Composants - Solutions",
+  "description": "Exercise 1:",
+  "date": "2023-05-11T00:00:00.000Z",
+  "formattedDate": "May 11, 2023",
+  "tags": [],
+  "readingTime": 4.365,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Youcef",
+      "title": "Professeur",
+      "url": "https://www.linkedin.com/in/youcefacheuk/",
+      "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+      "key": "youcef"
+    }
+  ],
+  "frontMatter": {
+    "slug": "td-2-solutions",
+    "title": "TD n°2 - Setup & Composants - Solutions",
+    "authors": [
+      "youcef"
+    ]
+  },
+  "prevItem": {
+    "title": "TD n°3 - Navigation & Hooks",
+    "permalink": "/blog/td-3"
+  },
+  "nextItem": {
+    "title": "TD n°2 - Setup & Composants",
+    "permalink": "/blog/td-2"
+  }
+}

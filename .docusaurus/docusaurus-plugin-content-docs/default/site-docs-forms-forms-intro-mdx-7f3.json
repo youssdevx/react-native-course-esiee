@@ -1,0 +1,29 @@
+{
+  "unversionedId": "forms/forms-intro",
+  "id": "forms/forms-intro",
+  "title": "Forms Intro",
+  "description": "Understanding the Need for Forms in Mobile Apps",
+  "source": "@site/docs/forms/forms-intro.mdx",
+  "sourceDirName": "forms",
+  "slug": "/forms/forms-intro",
+  "permalink": "/docs/forms/forms-intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/forms/forms-intro.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Forms Intro",
+    "section": "Forms",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Forms",
+    "permalink": "/docs/category/forms"
+  },
+  "next": {
+    "title": "Basic form components",
+    "permalink": "/docs/forms/basic-form-components"
+  }
+}

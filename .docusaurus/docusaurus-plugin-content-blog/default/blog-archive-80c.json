@@ -1,6 +1,82 @@
 {
   "blogPosts": [
     {
+      "id": "td-3",
+      "metadata": {
+        "permalink": "/blog/td-3",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-23-TD3.mdx",
+        "source": "@site/blog/2023-05-23-TD3.mdx",
+        "title": "TD n°3 - Navigation & Hooks",
+        "description": "Setup",
+        "date": "2023-05-23T00:00:00.000Z",
+        "formattedDate": "May 23, 2023",
+        "tags": [],
+        "readingTime": 4.995,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Youcef",
+            "title": "Professeur",
+            "url": "https://www.linkedin.com/in/youcefacheuk/",
+            "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+            "key": "youcef"
+          }
+        ],
+        "frontMatter": {
+          "slug": "td-3",
+          "title": "TD n°3 - Navigation & Hooks",
+          "authors": [
+            "youcef"
+          ]
+        },
+        "nextItem": {
+          "title": "TD n°2 - Setup & Composants - Solutions",
+          "permalink": "/blog/td-2-solutions"
+        }
+      },
+      "content": "### Setup\n\n1. Create a new Expo project\n2. Install eslint and prettier\n3. Run the app on your phone\n4. Try to run your app on a simulator\n\n### Exercise 1: Adding Navigation to an Expo App\n\nObjective: Implement navigation in an Expo app using React Navigation.\n\nInstructions:\n1. Create a new Expo app.\n2. Install React Navigation packages\n3. Create two screens: `HomeScreen` and `DetailsScreen`.\n4. Set up a Stack Navigator in your app to navigate between the screens.\n5. Configure the Stack Navigator to show the `HomeScreen` as the initial route.\n6. Add a button in the `HomeScreen` that navigates to the `DetailsScreen` when pressed.\n\n### Exercise 2: Creating Screens and Navigating Between Them\n\nObjective: Create multiple screens and navigate between them using React Navigation.\n\nInstructions:\n1. Add two more screens to your Expo app: `ProfileScreen` and `SettingsScreen`.\n2. Create a Bottom Tab Navigator to switch between the screens.\n3. Configure the Tab Navigator to show the `HomeScreen` as the initial route.\n4. Add buttons or icons to each screen that navigate to the corresponding screen when pressed.\n\n### Exercise 3: Passing Parameters to Routes and Configuring Header Bar\n\nObjective: Pass parameters to routes and configure the header bar in a React Native app.\n\nInstructions:\n1. Modify the `DetailsScreen` to receive a parameter when navigating to it.\n2. Pass a parameter from the `HomeScreen` to the `DetailsScreen` when navigating.\n3. Display the received parameter on the `DetailsScreen`.\n4. Configure the header bar of the `DetailsScreen` to display a title based on the received parameter.\n5. Add a header button to the `DetailsScreen` that performs a specific action when pressed.\n\n### Exercise 4: Counter App\n\nObjective: Create a simple counter application using React Native and the `useState` hook. The counter should display a number and have two buttons: one for incrementing the count and another for decrementing it.\n\nInstructions:\n1. Create a new Expo app or use the current one.\n2. Create a functional component called `CounterApp`.\n3. Import the necessary React Native components (`Text`, `View`, `Button`, etc.) from the `react-native` package.\n4. Inside the `CounterApp` component, use the `useState` hook to define a state variable called `count` and a function called `setCount` to update it.\n5. Render a `View` component that contains a `Text` component displaying the current value of `count`.\n6. Add two `Button` components below the `Text` component: one with the label \"+\" and another with the label \"-\".\n7. Attach `onPress` handlers to each button that call the appropriate function to increment or decrement the `count` state variable using `setCount`.\n8. Style the components as desired to improve the user interface.\n9. Test the application in the Expo client or simulator.\n\n### Exercise 5: Toggle Switch\n\nObjective: Create a toggle switch component using React Native and the `useState` hook. The toggle switch should have an initial state (on/off) and change its state when the user taps on it.\n\nInstructions:\n1. Create a new Expo app or use the current one.\n2. Define a functional component called `ToggleSwitch`.\n3. Import the necessary React Native components (`Text`, `View`, `TouchableOpacity`, etc.) from the `react-native` package.\n4. Inside the `ToggleSwitch` component, use the `useState` hook to define a state variable called `isOn` and a function called `setIsOn` to update it.\n5. Render a `View` component that represents the toggle switch.\n6. Inside the `View` component, render a `Text` component displaying the current state (`isOn`).\n7. Add a `TouchableOpacity` component inside the `View` component that wraps the entire toggle switch.\n8. Attach an `onPress` handler to the `TouchableOpacity` component that calls the `setIsOn` function to toggle the `isOn` state variable.\n9. Style the components to create a visual representation of the toggle switch, such as using different colors or icons to represent the different states.\n10. Test the toggle switch component in the Expo client or simulator.\n\n### Exercise 6: Random Quote Generator\n\nObjective: Create a simple random quote generator application using React Native and the useEffect hook. The application should fetch a random quote from an API and display it on the screen.\n\nInstructions:\n1. Create a functional component called QuoteGenerator.\n2. Import the necessary React Native components (Text, View, etc.) from the react-native package.\n3. Inside the QuoteGenerator component, use the useState hook to define a state variable called quote and a function called setQuote to update it.\n4. Use the useEffect hook to fetch a random quote from the API https://type.fit/api/quotes when the component mounts. You can use the fetch function or a library like Axios to make the API call.\n5. Update the quote state variable with the fetched quote.\n6. Render a View component that contains a Text component displaying the current value of the quote state variable.\n7. Style the components as desired to improve the user interface.\n8. Test the application in the Expo client or simulator.\n\n### Exercise 7: Real-time Weather Updates\n\nObjective: Create a real-time weather update application using React Native and the useEffect hook. The application should fetch weather data from an API and display it on the screen, updating the data at regular intervals.\n\nInstructions:\n\n1. Create a new Expo app or use the current one.\n2. Define a functional component called WeatherApp.\n3. Import the necessary React Native components (Text, View, etc.) from the react-native package.\n4. Inside the WeatherApp component, use the useState hook to define a state variable called weatherData and a function called setWeatherData to update it.\n5. Use the useEffect hook to fetch weather data from the API https://open-meteo.com/ when the component mounts and at regular intervals (e.g., every 5 minutes). You can use the fetch function or a library like Axios to make the API call.\n6. Update the weatherData state variable with the fetched weather data.\n7. Render a View component that contains Text components displaying the relevant weather information from the weatherData state variable (e.g., temperature, humidity, etc.).\n8. Style the components as desired to improve the user interface.\n9. Test the application in the Expo client or simulator."
+    },
+    {
+      "id": "td-2-solutions",
+      "metadata": {
+        "permalink": "/blog/td-2-solutions",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2-solutions.mdx",
+        "source": "@site/blog/2023-05-11-TD2-solutions.mdx",
+        "title": "TD n°2 - Setup & Composants - Solutions",
+        "description": "Exercise 1:",
+        "date": "2023-05-11T00:00:00.000Z",
+        "formattedDate": "May 11, 2023",
+        "tags": [],
+        "readingTime": 4.365,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Youcef",
+            "title": "Professeur",
+            "url": "https://www.linkedin.com/in/youcefacheuk/",
+            "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+            "key": "youcef"
+          }
+        ],
+        "frontMatter": {
+          "slug": "td-2-solutions",
+          "title": "TD n°2 - Setup & Composants - Solutions",
+          "authors": [
+            "youcef"
+          ]
+        },
+        "prevItem": {
+          "title": "TD n°3 - Navigation & Hooks",
+          "permalink": "/blog/td-3"
+        },
+        "nextItem": {
+          "title": "TD n°2 - Setup & Composants",
+          "permalink": "/blog/td-2"
+        }
+      },
+      "content": "## Exercise 1:\n\nHere's an example of how you can achieve the desired layout using React Native and Expo:\n\n```javascript\nimport React from 'react';\nimport { View, Text, StyleSheet } from 'react-native';\n\nconst Exercise1 = () => {\n  return (\n    <View style={styles.container}>\n      <Text style={styles.header}>Here are my boxes</Text>\n      <View style={styles.boxContainer}>\n        <Rectangle color=\"#2aa198\" name=\"Cyan: #2aa198\" />\n        <Rectangle color=\"#268bd2\" name=\"Blue: #268bd2\" />\n        <Rectangle color=\"#d33682\" name=\"Magenta: #d33682\" />\n        <Rectangle color=\"#cb4b16\" name=\"Orange: #cb4b16\" />\n      </View>\n    </View>\n  );\n};\n\nconst Rectangle = ({ color, name }) => {\n  return (\n    <View style={[styles.rectangle, { backgroundColor: color }]}>\n      <Text style={styles.rectangleText}>{name}</Text>\n    </View>\n  );\n};\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    padding: 16,\n    alignItems: 'center',\n  },\n  header: {\n    fontSize: 24,\n    fontWeight: 'bold',\n    marginBottom: 16,\n  },\n  boxContainer: {\n    justifyContent: 'center',\n  },\n  rectangle: {\n    width: 200,\n    height: 50,\n    marginBottom: 8,\n    justifyContent: 'center',\n    alignItems: 'center',\n  },\n  rectangleText: {\n    color: 'white',\n    fontWeight: 'bold',\n  },\n});\n\nexport default Exercise1;\n```\n\nYou can use the `Exercise1` component in your main app file to display the header and rectangles with their respective colors and names.\n\n## Exercise 2:\n\nHere's an example of how you can create three centered squares with unique background colors using shared styles:\n\n```javascript\nimport React from 'react';\nimport { View, StyleSheet } from 'react-native';\n\nconst Exercise2 = () => {\n  return (\n    <View style={styles.container}>\n      <View style={[styles.square, styles.square1]} />\n      <View style={[styles.square, styles.square2]} />\n      <View style={[styles.square, styles.square3]} />\n    </View>\n  );\n};\n\nconst sharedStyles = StyleSheet.create({\n  square: {\n    width: 100,\n    height: 100,\n    margin: 8,\n  },\n});\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n  square1: {\n    backgroundColor: 'red',\n  },\n  square2: {\n    backgroundColor: 'green',\n  },\n  square3: {\n    backgroundColor: 'blue',\n  },\n});\n\nexport default Exercise2;\n```\n\nYou can use the `Exercise2` component in your main app file to display the three centered squares with their respective colors.\n\n## Exercise 3:\n\nHere's an example of how you can create a profile screen layout using the flex property:\n\n```javascript\nimport React from 'react';\nimport { View, Image, Text, StyleSheet } from 'react-native';\n\nconst Exercise3 = () => {\n  return (\n    <View style={styles.container}>\n      <View style={styles.profilePictureContainer}>\n        <Image\n          source={require('./profile-picture.jpg')}\n          style={styles.profilePicture}\n        />\n      </View>\n      <View style={styles.userInfoContainer}>\n        <Text style={styles.name}>John Doe</Text>\n        <Text style={styles.bio}>Software Developer</Text>\n      </View>\n      <View style={\n\nstyles.postsContainer}>\n        <Text style={styles.postsTitle}>Posts</Text>\n        <Text style={styles.post}>Post 1</Text>\n        <Text style={styles.post}>Post 2</Text>\n        <Text style={styles.post}>Post 3</Text>\n      </View>\n    </View>\n  );\n};\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    padding: 16,\n  },\n  profilePictureContainer: {\n    alignItems: 'center',\n    marginTop: 16,\n  },\n  profilePicture: {\n    width: 150,\n    height: 150,\n    borderRadius: 75,\n  },\n  userInfoContainer: {\n    alignItems: 'center',\n    marginTop: 16,\n  },\n  name: {\n    fontSize: 24,\n    fontWeight: 'bold',\n  },\n  bio: {\n    fontSize: 16,\n    marginTop: 8,\n  },\n  postsContainer: {\n    flex: 1,\n    marginTop: 16,\n  },\n  postsTitle: {\n    fontSize: 20,\n    fontWeight: 'bold',\n    marginBottom: 8,\n  },\n  post: {\n    fontSize: 16,\n    marginBottom: 4,\n  },\n});\n\nexport default Exercise3;\n```\n\nYou can use the `Exercise3` component in your main app file to display the profile screen layout.\n\n## Exercise 4:\n\nHere's an example of how you can create a contact list using the FlatList component:\n\n```javascript\nimport React from 'react';\nimport { View, Text, FlatList, StyleSheet } from 'react-native';\n\nconst ContactScreen = () => {\n  const contacts = [\n    { id: '1', name: 'John Doe', phoneNumber: '123-456-7890' },\n    { id: '2', name: 'Jane Smith', phoneNumber: '987-654-3210' },\n    { id: '3', name: 'Alice Johnson', phoneNumber: '555-123-4567' },\n  ];\n\n  const renderContactItem = ({ item }) => (\n    <View style={styles.item}>\n      <Text style={styles.name}>{item.name}</Text>\n      <Text style={styles.phoneNumber}>{item.phoneNumber}</Text>\n    </View>\n  );\n\n  return (\n    <View style={styles.container}>\n      <FlatList\n        data={contacts}\n        renderItem={renderContactItem}\n        keyExtractor={(item) => item.id}\n        ItemSeparatorComponent={() => <View style={styles.separator} />}\n      />\n    </View>\n  );\n};\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    padding: 16,\n  },\n  item: {\n    paddingVertical: 8,\n  },\n  name: {\n    fontSize: 16,\n    fontWeight: 'bold',\n  },\n  phoneNumber: {\n    fontSize: 14,\n    color: '#666',\n  },\n  separator: {\n    height: 1,\n    backgroundColor: '#ccc',\n  },\n});\n\nexport default ContactScreen;\n```\n\nYou can use the `ContactScreen` component in your main app file to display the contact list using the FlatList component.\n\n## Exercise 5:\n\nHere's an example of how you can group contacts by the first letter of their names using the SectionList component:\n\n```javascript\nimport React from 'react';\nimport { View, Text, SectionList, StyleSheet } from 'react-native';\n\nconst SectionContactScreen = () => {\n  const contacts = [\n    { id: '1', name: 'John Doe', phoneNumber: '123-456-7890' },\n    { id: '2', name: 'Jane Smith', phoneNumber: '987-654-3210' },\n   \n\n { id: '3', name: 'Alice Johnson', phoneNumber: '555-123-4567' },\n    // ...more contacts\n  ];\n\n  const contactsBySection = contacts.reduce((sections, contact) => {\n    const firstLetter = contact.name.charAt(0).toUpperCase();\n    if (!sections[firstLetter]) {\n      sections[firstLetter] = { title: firstLetter, data: [] };\n    }\n    sections[firstLetter].data.push(contact);\n    return sections;\n  }, {});\n\n  const sections = Object.values(contactsBySection);\n\n  const renderContactItem = ({ item }) => (\n    <View style={styles.item}>\n      <Text style={styles.name}>{item.name}</Text>\n      <Text style={styles.phoneNumber}>{item.phoneNumber}</Text>\n    </View>\n  );\n\n  const renderSectionHeader = ({ section }) => (\n    <Text style={styles.sectionHeader}>{section.title}</Text>\n  );\n\n  return (\n    <View style={styles.container}>\n      <SectionList\n        sections={sections}\n        renderItem={renderContactItem}\n        renderSectionHeader={renderSectionHeader}\n        keyExtractor={(item) => item.id}\n        ItemSeparatorComponent={() => <View style={styles.separator} />}\n      />\n    </View>\n  );\n};\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    padding: 16,\n  },\n  item: {\n    paddingVertical: 8,\n  },\n  name: {\n    fontSize: 16,\n    fontWeight: 'bold',\n  },\n  phoneNumber: {\n    fontSize: 14,\n    color: '#666',\n  },\n  sectionHeader: {\n    fontSize: 18,\n    fontWeight: 'bold',\n    backgroundColor: '#f5f5f5',\n    paddingVertical: 8,\n    paddingHorizontal: 16,\n  },\n  separator: {\n    height: 1,\n    backgroundColor: '#ccc',\n  },\n});\n\nexport default SectionContactScreen;\n```\n\nYou can use the `SectionContactScreen` component in your main app file to display the contact list grouped by the first letter of their names using the SectionList component."
+    },
+    {
       "id": "td-2",
       "metadata": {
         "permalink": "/blog/td-2",
@@ -28,6 +104,10 @@
           "authors": [
             "youcef"
           ]
+        },
+        "prevItem": {
+          "title": "TD n°2 - Setup & Composants - Solutions",
+          "permalink": "/blog/td-2-solutions"
         },
         "nextItem": {
           "title": "TD n°1 - Les bases de JavaScript",

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "navigation/image",
+  "id": "navigation/image",
+  "title": "Image",
+  "description": "Image is used to render images. Images may either be downloaded from the web, or imported as files, which are then bundled with the app.",
+  "source": "@site/docs/navigation/image.mdx",
+  "sourceDirName": "navigation",
+  "slug": "/navigation/image",
+  "permalink": "/docs/navigation/image",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/navigation/image.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Image",
+    "section": "Components",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components",
+    "permalink": "/docs/navigation/components"
+  },
+  "next": {
+    "title": "Lists",
+    "permalink": "/docs/navigation/lists"
+  }
+}
