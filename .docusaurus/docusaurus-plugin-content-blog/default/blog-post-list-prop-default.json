@@ -2,20 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "TD n°4 - Forms & Context",
+      "permalink": "/blog/td-4"
+    },
+    {
+      "title": "Project",
+      "permalink": "/blog/project"
+    },
+    {
       "title": "TD n°3 - Navigation & Hooks",
       "permalink": "/blog/td-3"
     },
     {
-      "title": "TD n°2 - Setup & Composants - Solutions",
+      "title": "TD n°2 - Setup & Components - Solutions",
       "permalink": "/blog/td-2-solutions"
     },
     {
-      "title": "TD n°2 - Setup & Composants",
+      "title": "TD n°2 - Setup & Components",
       "permalink": "/blog/td-2"
-    },
-    {
-      "title": "TD n°1 - Les bases de JavaScript",
-      "permalink": "/blog/td-1"
     }
   ]
 }

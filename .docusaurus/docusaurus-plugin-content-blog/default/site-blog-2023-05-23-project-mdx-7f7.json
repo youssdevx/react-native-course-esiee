@@ -1,0 +1,36 @@
+{
+  "permalink": "/blog/project",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-23-Project.mdx",
+  "source": "@site/blog/2023-05-23-Project.mdx",
+  "title": "Project",
+  "description": "We're going to be building a Calories Counter and Meal Planner application using React Native and Expo. This application will allow users to set their health goals, choose items from a food database to track caloric intake, and plan meals accordingly. As we work through this project, we'll be learning and applying key concepts we saw during the course, including user input handling, API integration, state management, and UI styling. Let's dive right in.",
+  "date": "2023-05-23T00:00:00.000Z",
+  "formattedDate": "May 23, 2023",
+  "tags": [],
+  "readingTime": 12.07,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Youcef",
+      "title": "Professeur",
+      "url": "https://www.linkedin.com/in/youcefacheuk/",
+      "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+      "key": "youcef"
+    }
+  ],
+  "frontMatter": {
+    "slug": "project",
+    "title": "Project",
+    "authors": [
+      "youcef"
+    ]
+  },
+  "prevItem": {
+    "title": "TD n°4 - Forms & Context",
+    "permalink": "/blog/td-4"
+  },
+  "nextItem": {
+    "title": "TD n°3 - Navigation & Hooks",
+    "permalink": "/blog/td-3"
+  }
+}

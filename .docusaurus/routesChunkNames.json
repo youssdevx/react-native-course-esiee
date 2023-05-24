@@ -42,13 +42,19 @@
       "plugin": "plugin---docusaurus-debug-72-c-980"
     }
   },
-  "/blog-86f": {
+  "/blog-d68": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blogcbc-529"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-9-b-4-02e"
+      },
+      {
+        "content": "content---blogedf-b21"
+      },
       {
         "content": "content---blog-7-de-d58"
       },
@@ -70,6 +76,14 @@
       "plugin": "plugin---blogcbc-529"
     },
     "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/project-8fe": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blogcbc-529"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-td-37-f-7-7ac"
   },
   "/blog/td-1-adf": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -102,6 +116,14 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-td-29-f-9-5e9"
+  },
+  "/blog/td-4-5dc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blogcbc-529"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-td-3-b-46-aaf"
   },
   "/markdown-page-b8f": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

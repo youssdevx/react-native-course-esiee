@@ -915,6 +915,82 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "td-4",
+          "metadata": {
+            "permalink": "/blog/td-4",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4.mdx",
+            "source": "@site/blog/2023-05-24-TD4.mdx",
+            "title": "TD n°4 - Forms & Context",
+            "description": "Setup",
+            "date": "2023-05-24T00:00:00.000Z",
+            "formattedDate": "May 24, 2023",
+            "tags": [],
+            "readingTime": 1.48,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Youcef",
+                "title": "Professeur",
+                "url": "https://www.linkedin.com/in/youcefacheuk/",
+                "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+                "key": "youcef"
+              }
+            ],
+            "frontMatter": {
+              "slug": "td-4",
+              "title": "TD n°4 - Forms & Context",
+              "authors": [
+                "youcef"
+              ]
+            },
+            "nextItem": {
+              "title": "Project",
+              "permalink": "/blog/project"
+            }
+          },
+          "content": "### Setup\n\n1. Create a new Expo project\n2. Install eslint and prettier\n3. Run the app on your phone\n4. Try to run your app on a simulator\n\n### Exercise 1 : Forms and Validation\nObjective: To understand and implement forms with validation in React Native with Expo. You'll be creating a form with several fields and their respective validations.\n\nRequirements: Familiarity with JavaScript, React Native, Expo, and basic understanding of form handling and validation in React.\n\nTask\nCreate a React Native application with Expo. The application should contain a form with the following fields:\n\n- Name - Text input (required, should contain only characters)\n- Date of Birth - Date picker (required, should not be a future date)\n- Age - This field should be automatically calculated based on the Date of Birth input - Should be a text or a disabled input\n- Number of Pets - A number input field (should contain only digits) - Optional\n- I'm a great React Native developer (Yes/No) - Implement this using a Switch component\n- I understand the rules of the project and I'll do my best - Implement this using a Checkbox component - This should be checked before the form can be submitted\n\nAdd a button at the bottom of the screen. The button should be disabled if the required information is not provided.\n\nOn submit, the info should be displayed through an ```Alert``` component.\n\n### Exercise 2 : Context\n\nYou will add a feature to persist the form data in local storage and pre-fill the form fields when the application is opened again.\n\nCreate a new screen called ```DetailsScreen```. On submit of the form, you should navigate to this new screen and, without passing route parameters, display the info of the form."
+        },
+        {
+          "id": "project",
+          "metadata": {
+            "permalink": "/blog/project",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-23-Project.mdx",
+            "source": "@site/blog/2023-05-23-Project.mdx",
+            "title": "Project",
+            "description": "We're going to be building a Calories Counter and Meal Planner application using React Native and Expo. This application will allow users to set their health goals, choose items from a food database to track caloric intake, and plan meals accordingly. As we work through this project, we'll be learning and applying key concepts we saw during the course, including user input handling, API integration, state management, and UI styling. Let's dive right in.",
+            "date": "2023-05-23T00:00:00.000Z",
+            "formattedDate": "May 23, 2023",
+            "tags": [],
+            "readingTime": 12.07,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Youcef",
+                "title": "Professeur",
+                "url": "https://www.linkedin.com/in/youcefacheuk/",
+                "imageURL": "https://media.licdn.com/dms/image/D4E03AQEsoGJhPBw2lg/profile-displayphoto-shrink_400_400/0/1673963094102?e=1686787200&v=beta&t=GPsLkfpeqiYFDDMVGbg7gjSazqhEA9oELnHJjvYdkjw",
+                "key": "youcef"
+              }
+            ],
+            "frontMatter": {
+              "slug": "project",
+              "title": "Project",
+              "authors": [
+                "youcef"
+              ]
+            },
+            "prevItem": {
+              "title": "TD n°4 - Forms & Context",
+              "permalink": "/blog/td-4"
+            },
+            "nextItem": {
+              "title": "TD n°3 - Navigation & Hooks",
+              "permalink": "/blog/td-3"
+            }
+          },
+          "content": "We're going to be building a Calories Counter and Meal Planner application using React Native and Expo. This application will allow users to set their health goals, choose items from a food database to track caloric intake, and plan meals accordingly. As we work through this project, we'll be learning and applying key concepts we saw during the course, including user input handling, API integration, state management, and UI styling. Let's dive right in.\n\n### Rules\n\nEach item is **mandatory**\n\n- Teams of 2 students\n- Use React Native AND Expo\n- The two students have to commit to the project repository\n\n### Module 1: Setting up the project\nOur first step in this journey is to set up our development environment and initiate our project. Here are the steps to follow:\n\n- Step 1: Create a New Expo Project\n- Step 2: Install eslint and prettier\n- Step 3: Install React Navigation\n- Step 4: Run the app on your phone using Expo Go\n\nAfter this we will create 3 tabs using a Bottom Tab Navigator\n- Tab 1: Health goals\n- Tab 2: Food database\n- Tab 3: Meal planning\n\n### Module 2 : Health goals\n\nIn this module, we will be implementing the functionality for users to set their health goals and receive a daily caloric intake suggestion based on these goals. The main objective of this module is to understand how to capture user inputs, handle state management in React Native, and apply basic mathematical models in software applications.\n\nHere's a step-by-step breakdown:\n\n#### Step 1: Creating a Form for User Input\nFirstly, we need to create a form where users can input their personal details and health goals. The form should include fields for:\n\n- Age\n- Gender\n- Height\n- Weight\n- Activity level (with options like sedentary, light exercise, moderate exercise, heavy exercise, extra active)\n- Health goal (with options like weight loss, weight maintenance, weight gain)\n\nYou can use the `TextInput` and `Picker` components from React Native for this.\n\n#### Step 2: Handling User Input\nOnce the form is set up, we need to handle user input. This involves setting up state variables for each input field using the `useState` hook and updating these variables as the user enters their data.\nAlso, you should add proper form validation (disable the button one of the fields is empty for example).\n\n#### Step 3: Calculating BMR Using the Harris-Benedict Equation\nThe next step is to calculate the user's Basal Metabolic Rate (BMR) using the Harris-Benedict equation. The equation is different for men and women:\n\nFor men: ```BMR = 88.362 + (13.397 * weight in kg) + (4.799 * height in cm) - (5.677 * age in years)```\n\nFor women: ```BMR = 447.593 + (9.247 * weight in kg) + (3.098 * height in cm) - (4.330 * age in years)```\n\nWe will need to create a function that takes the user's age, gender, height, and weight as input, and returns the BMR as output.\n\n#### Step 4: Adjusting BMR Based on Activity Level\nThe BMR needs to be adjusted based on the user's activity level to get the total amount of calories they need to maintain their current weight. The adjustment factors are as follows:\n\n- Sedentary (little or no exercise): ```BMR * 1.2```\n- Lightly active (light exercise/sports 1-3 days/week): ```BMR * 1.375```\n- Moderately active (moderate exercise/sports 3-5 days/week): ```BMR * 1.55```\n- Very active (hard exercise/sports 6-7 days a week): ```BMR * 1.725```\n- Super active (very hard exercise/physical job & exercise 2x/day): ```BMR * 1.9```\n\nWe need to add this calculation to the function created in the previous step.\n\n#### Step 5: Adjusting Caloric Intake Based on Health Goal\nFinally, the total caloric intake needs to be adjusted based on the user's health goal. If the user wants to lose weight, subtract 500 calories from the total. If the user wants to gain weight, add 500 calories to the total. If the user wants to maintain weight, the total caloric intake remains the same.\n\n#### Step 6: Displaying the Result to the User\nOnce the daily caloric intake has been calculated, it should be displayed to the user. we can create a new component to display the result, or they can display it in an existing component.\n\nAbsolutely! Welcome back, students. We've made great progress on our Calories Counter and Meal Planner application, having already set up our project and implemented the functionality for users to set their health goals. Now, it's time to move on to the next part of our application: the Food Database.\n\n### Module 3: Food Database\n\nIn this module, we're going to be creating a food database where users can search for foods and see their nutritional information. This will involve integrating with a nutrition API to get this information, and creating a user interface where users can search for foods and view their details. Let's dive into the steps.\n\n**Step 1: Choosing a Nutrition API**\n\nThere are several nutrition APIs available that provide detailed information about different foods, including their calorie content and other nutritional facts. Some examples include these: https://developer.edamam.com/food-database-api or https://www.nutritionix.com/business/api. You'll need to choose one of these APIs (or another of your choice), sign up to get an API key, and familiarize yourself with the API documentation to understand how to make requests.\n\n**Step 2: Creating the Search Interface**\n\nNext, you'll create a new screen in your application for the food database. This screen should include a search bar where users can enter the name of a food. You can use the `TextInput` component from React Native for this.\n\n**Step 3: Handling User Input**\n\nSet up a state variable for the search query and update this variable as the user types into the search bar. You can do this using the `useState` and `onChangeText` props.\n\n**Step 4: Fetching Data from the API**\n\nWhen the user submits their search, make a request to the nutrition API to get information about the food. You'll need to refer to your chosen API's documentation to know exactly how to structure this request, but typically it will involve sending a GET request to a specific endpoint, with the search query and your API key included as parameters.\n\n**Step 5: Displaying the Results**\n\nOnce you receive the response from the API, extract the relevant information and display it to the user. This could include the food's name, calorie content, and other nutritional facts. Ensure to handle any errors that might occur, such as the food not being found in the database.\n\n**Step 6: Selecting Food for Meal Planning**\n\nAfter displaying the search results, allow the user to select a food item to add to their meal plan. You will need to create some form of selection interface – this could be as simple as a \"Add to Meal Plan\" button next to each food item.\n\nOnce a food item is selected, prompt the user to specify which meal this food item should be added to (Breakfast, Lunch, Dinner, or Snack). You can create a modal or a new screen to handle this. Use the `Picker` component from React Native for the meal type selection.\n\n**Step 7: Updating the Meal Plan**\n\nUpon the user's confirmation, update the user's meal plan with the chosen food item. The meal plan could be an object in your application's state that stores an array of food items for each meal type. Here is an example structure:\n\n```javascript\n{\n  \"Breakfast\": [],\n  \"Lunch\": [],\n  \"Snack\": [],\n  \"Dinner\": []\n}\n```\n\nEach time a food item is added, push it to the appropriate array in this object.\n\nAbsolutely, let's move forward to our next module. Having set up our project, implemented health goals functionality, and created a food database, we're now ready to start implementing the meal planning functionality. \n\n### Module 4: Meal Planning\n\nIn this module, we'll develop the core feature of our application: the Meal Planner. This will allow users to plan their meals for the week and view a summary of the planned meals along with the total calories for each day. Let's get started!\n\n**Step 1: Creating the Meal Planner Interface**\n\nFirst, create a new screen in your application for the Meal Planner. This screen should include a view for each day of the week, and within each day, a section for each meal (Breakfast, Lunch, Dinner, Snack). You may use the `View` and `Text` components from React Native for this purpose.\n\n**Step 2: Displaying the Meal Plan**\n\nNext, you'll need to display the user's meal plan in the Meal Planner screen. Recall the meal plan object we created in the last module, which should look something like this:\n\n```javascript\n{\n  \"Breakfast\": [],\n  \"Lunch\": [],\n  \"Dinner\": [],\n  \"Snack\": []\n}\n```\n\nFor each day and each meal, list out the food items that the user has added to their meal plan. You might want to create a separate component for each meal that takes the array of food items as a prop and renders them in a list.\n\n**Step 3: Calculating Daily Calories**\n\nFor each day, calculate the total calories of all food items in the meal plan. This can be done by looping through the food items for each meal, summing up their calorie content, and displaying the total. \n\n**Step 4: Adding and Removing Food Items**\n\nGive the user the option to add more food items to their meal plan from the food database, or remove existing items. When the user chooses to add an item, redirect them to the food database search screen, and after they've selected a food item, add it to the appropriate meal. When the user chooses to remove an item, simply remove it from the meal plan object.\n\n**Step 5: Saving the Meal Plan**\n\nFinally, consider how you want to handle data persistence. When the user closes and reopens the app, their meal plan should be saved.\n\n### Grading grid\n\nHere is the grading grid for this project. Note that bonus points can be awarded for outstanding work or additional features (using an external library, outstanding styling, adding an icon or a splashcreen...). Please be creative :)\n\n| Criteria | Unsatisfactory | Satisfactory | Good | Excellent | Outstanding |\n| --- | --- | --- | --- | --- | --- |\n| **Project Setup & Code Organization (2 points)** | Project setup is incorrect and/or code is disorganized or unreadable. | Project setup is mostly correct and code is somewhat organized and readable. | Project setup is correct, code is organized, and most naming conventions are followed. | Project setup is correct and efficient, code is well-organized, and naming conventions are followed. | Project setup is correct and efficient, code is extremely well-organized, with clear, thoughtful naming conventions. |\n| **Implementation of Health Goals (5 points)** | The health goals functionality is missing or implemented incorrectly. | The health goals functionality is partially implemented, with some minor errors. | The health goals functionality is mostly implemented correctly and works as expected. | The health goals functionality is fully implemented, works as expected, and includes robust error checking. | The health goals functionality is fully implemented, works as expected, includes robust error checking, and demonstrates a deep understanding of the underlying concepts. |\n| **Implementation of Food Database (5 points)** | The food database functionality is missing or implemented incorrectly. | The food database functionality is partially implemented, with some minor errors. | The food database functionality is mostly implemented correctly and works as expected. | The food database functionality is fully implemented, works as expected, and includes robust error checking. | The food database functionality is fully implemented, works as expected, includes robust error checking, and demonstrates a deep understanding of the underlying concepts. |\n| **Implementation of Meal Planning (5 points)** | The meal planning functionality is missing or implemented incorrectly. | The meal planning functionality is partially implemented, with some minor errors. | The meal planning functionality is mostly implemented correctly and works as expected. | The meal planning functionality is fully implemented, works as expected, and includes robust error checking. | The meal planning functionality is fully implemented, works as expected, includes robust error checking, and demonstrates a deep understanding of the underlying concepts. |\n| **UI Design & Styling (3 points)** | The application's UI is poorly designed and/or styled. | The application's UI is somewhat well-designed and styled, with some minor issues. | The application's UI is well-designed and styled, and is mostly consistent across the application. | The application's UI is very well-designed and styled, and is consistent across the application. | The application's UI is exceptionally well-designed and styled, demonstrating a high level of creativity and attention to detail, and is consistent across the application. |\n| **Overall Functionality** | The application has many bugs or is non-functional. | The application has some minor bugs, but is mostly functional. | The application is functional and behaves mostly as expected. | The application is fully functional, behaves as expected, and includes robust error checking. | The application is fully functional, behaves as expected, includes robust error checking, and demonstrates a deep understanding of the underlying concepts. |\n\n\n### Deliverables\n\n- **Project Setup and Code Repository**: Students should deliver a properly setup project with a GitHub repository. The repository should contain clear, well-organized code and a README file describing **your team**, the project, how to set it up, and how to use it. **Important**: I need to see the two teammates git users committing to the project, otherwise you'll face a penalty of **5 points**\n- **Documentation**: Objective, application's architecture, succeded features, unsucceded features, roadmap and screenshots, and the difficulties you faced while developing it. \n- **Demo**: Students should prepare a video presentation showcasing their application and all the requested features. **You face a penalty of 5 points if the demo is not included**.\n\nPlease put the documentation **(as a PDF)** and the demo **(as a MP4 video)** in the repo.\n\nRemember, these deliverables are not just about completing the project but also about demonstrating a clear understanding of the underlying concepts and skills. It's important to take the time to understand each step, ask questions when necessary, and strive for continuous learning and improvement.\n\n### Deadline\n\nThe final project, including all deliverables, must be submitted no later than 23:59 on June 21, 2023. Please note that late submissions may not be accepted, so plan your work accordingly to meet this deadline."
+        },
+        {
           "id": "td-3",
           "metadata": {
             "permalink": "/blog/td-3",
@@ -943,8 +1019,12 @@
                 "youcef"
               ]
             },
+            "prevItem": {
+              "title": "Project",
+              "permalink": "/blog/project"
+            },
             "nextItem": {
-              "title": "TD n°2 - Setup & Composants - Solutions",
+              "title": "TD n°2 - Setup & Components - Solutions",
               "permalink": "/blog/td-2-solutions"
             }
           },
@@ -956,7 +1036,7 @@
             "permalink": "/blog/td-2-solutions",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2-solutions.mdx",
             "source": "@site/blog/2023-05-11-TD2-solutions.mdx",
-            "title": "TD n°2 - Setup & Composants - Solutions",
+            "title": "TD n°2 - Setup & Components - Solutions",
             "description": "Exercise 1:",
             "date": "2023-05-11T00:00:00.000Z",
             "formattedDate": "May 11, 2023",
@@ -974,7 +1054,7 @@
             ],
             "frontMatter": {
               "slug": "td-2-solutions",
-              "title": "TD n°2 - Setup & Composants - Solutions",
+              "title": "TD n°2 - Setup & Components - Solutions",
               "authors": [
                 "youcef"
               ]
@@ -984,7 +1064,7 @@
               "permalink": "/blog/td-3"
             },
             "nextItem": {
-              "title": "TD n°2 - Setup & Composants",
+              "title": "TD n°2 - Setup & Components",
               "permalink": "/blog/td-2"
             }
           },
@@ -996,7 +1076,7 @@
             "permalink": "/blog/td-2",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2.mdx",
             "source": "@site/blog/2023-05-11-TD2.mdx",
-            "title": "TD n°2 - Setup & Composants",
+            "title": "TD n°2 - Setup & Components",
             "description": "1. Create a new Expo project",
             "date": "2023-05-11T00:00:00.000Z",
             "formattedDate": "May 11, 2023",
@@ -1014,13 +1094,13 @@
             ],
             "frontMatter": {
               "slug": "td-2",
-              "title": "TD n°2 - Setup & Composants",
+              "title": "TD n°2 - Setup & Components",
               "authors": [
                 "youcef"
               ]
             },
             "prevItem": {
-              "title": "TD n°2 - Setup & Composants - Solutions",
+              "title": "TD n°2 - Setup & Components - Solutions",
               "permalink": "/blog/td-2-solutions"
             },
             "nextItem": {
@@ -1060,7 +1140,7 @@
               ]
             },
             "prevItem": {
-              "title": "TD n°2 - Setup & Composants",
+              "title": "TD n°2 - Setup & Components",
               "permalink": "/blog/td-2"
             }
           },
@@ -1070,6 +1150,8 @@
       "blogListPaginated": [
         {
           "items": [
+            "td-4",
+            "project",
             "td-3",
             "td-2-solutions",
             "td-2",
@@ -1080,7 +1162,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 6,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }

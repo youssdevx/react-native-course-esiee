@@ -2,7 +2,7 @@
   "permalink": "/blog/td-2-solutions",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-11-TD2-solutions.mdx",
   "source": "@site/blog/2023-05-11-TD2-solutions.mdx",
-  "title": "TD n°2 - Setup & Composants - Solutions",
+  "title": "TD n°2 - Setup & Components - Solutions",
   "description": "Exercise 1:",
   "date": "2023-05-11T00:00:00.000Z",
   "formattedDate": "May 11, 2023",
@@ -20,7 +20,7 @@
   ],
   "frontMatter": {
     "slug": "td-2-solutions",
-    "title": "TD n°2 - Setup & Composants - Solutions",
+    "title": "TD n°2 - Setup & Components - Solutions",
     "authors": [
       "youcef"
     ]
@@ -30,7 +30,7 @@
     "permalink": "/blog/td-3"
   },
   "nextItem": {
-    "title": "TD n°2 - Setup & Composants",
+    "title": "TD n°2 - Setup & Components",
     "permalink": "/blog/td-2"
   }
 }

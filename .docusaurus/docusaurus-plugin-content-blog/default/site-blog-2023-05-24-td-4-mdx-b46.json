@@ -1,13 +1,13 @@
 {
-  "permalink": "/blog/td-3",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-23-TD3.mdx",
-  "source": "@site/blog/2023-05-23-TD3.mdx",
-  "title": "TD n°3 - Navigation & Hooks",
+  "permalink": "/blog/td-4",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4.mdx",
+  "source": "@site/blog/2023-05-24-TD4.mdx",
+  "title": "TD n°4 - Forms & Context",
   "description": "Setup",
-  "date": "2023-05-23T00:00:00.000Z",
-  "formattedDate": "May 23, 2023",
+  "date": "2023-05-24T00:00:00.000Z",
+  "formattedDate": "May 24, 2023",
   "tags": [],
-  "readingTime": 4.995,
+  "readingTime": 1.48,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -19,18 +19,14 @@
     }
   ],
   "frontMatter": {
-    "slug": "td-3",
-    "title": "TD n°3 - Navigation & Hooks",
+    "slug": "td-4",
+    "title": "TD n°4 - Forms & Context",
     "authors": [
       "youcef"
     ]
   },
-  "prevItem": {
+  "nextItem": {
     "title": "Project",
     "permalink": "/blog/project"
-  },
-  "nextItem": {
-    "title": "TD n°2 - Setup & Components - Solutions",
-    "permalink": "/blog/td-2-solutions"
   }
 }

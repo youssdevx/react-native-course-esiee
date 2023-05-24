@@ -39,12 +39,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '86f'),
+    component: ComponentCreator('/blog', 'd68'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive', 'd46'),
+    exact: true
+  },
+  {
+    path: '/blog/project',
+    component: ComponentCreator('/blog/project', '8fe'),
     exact: true
   },
   {
@@ -65,6 +70,11 @@ export default [
   {
     path: '/blog/td-3',
     component: ComponentCreator('/blog/td-3', 'eaa'),
+    exact: true
+  },
+  {
+    path: '/blog/td-4',
+    component: ComponentCreator('/blog/td-4', '5dc'),
     exact: true
   },
   {

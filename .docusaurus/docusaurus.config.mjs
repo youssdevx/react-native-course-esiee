@@ -54,7 +54,7 @@ export default {
         },
         {
           "to": "/blog",
-          "label": "TDs",
+          "label": "TDs & Project",
           "position": "left"
         }
       ],
