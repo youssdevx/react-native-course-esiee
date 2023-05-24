@@ -1,0 +1,190 @@
+---
+slug: td-4
+title: TD n°4 - Forms & Context
+authors: [youcef]
+---
+
+# TD n°4 - Forms & Context - Solutions
+
+
+
+### Exercise 1 : Forms and Validation
+
+```javascript
+import CheckBox from 'expo-checkbox';
+import React, { useState } from 'react';
+import { View, TextInput, Button, Alert, Switch, Text } from 'react-native';
+import DateTimePicker from '@react-native-community/datetimepicker';
+
+const FormScreen = () => {
+  const [name, setName] = React.useState("");
+  const [dob, setDob] = React.useState(new Date());
+  const [numPets, setNumPets] = React.useState(0);
+  const [isGreatDeveloper, setIsGreatDeveloper] = React.useState(false);
+  const [understandRules, setUnderstandRules] = React.useState(false);
+
+  const calculateAge = (dob) => {
+    const birthDate = new Date(dob);
+    const currentDate = new Date();
+    const age = currentDate.getFullYear() - birthDate.getFullYear();
+    return age;
+  };
+
+  const validateForm = () => {
+    if (name && dob && understandRules && /^[a-zA-Z\s]*$/.test(name)) {
+      return true;
+    }
+
+    return false;
+  };
+
+  const onSubmit = () => {
+    Alert.alert(
+      "Form Submitted",
+      JSON.stringify(
+        {
+          name,
+          dob,
+          age: calculateAge(dob),
+          numPets,
+          isGreatDeveloper,
+          understandRules,
+        },
+        null,
+        2
+      )
+    );
+  };
+
+  return (
+    <View>
+      <TextInput placeholder="Name" onChangeText={(text) => setName(text)} value={name} />
+      <Text>Date of birth</Text>
+      <DateTimePicker
+        value={dob}
+        mode="date"
+        display="default"
+        onChange={(event, date) => {
+          setDob(date);
+        }}
+        maximumDate={new Date()}
+      />
+      <TextInput
+        placeholder="Number of Pets"
+        onChangeText={(text) => setNumPets(text)}
+        value={numPets}
+        keyboardType="numeric"
+      />
+      <View>
+        <Text>I'm a great React Native developer</Text>
+        <Switch onValueChange={(value) => setIsGreatDeveloper(value)} value={isGreatDeveloper} />
+      </View>
+      <View>
+        <Text>I understand the rules of the project and I'll do my best</Text>
+        <Checkbox value={understandRules} onValueChange={setUnderstandRules} />
+      </View>
+      <Button title="Submit" disabled={!validateForm()} onPress={onSubmit} />
+    </View>
+  );
+};
+```
+
+
+### Exercise 2
+
+To implement navigation and context to pass data between screens in a React Native application, you'll need to use React Navigation and React's Context API.
+
+First, let's create a context to store the form data:
+
+```jsx
+import React from 'react';
+
+export const FormDataContext = React.createContext();
+```
+
+Next, in your main App.js file, you'll need to set up navigation and provide the context to your screens:
+
+```jsx
+import React, { useState } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { FormDataContext } from './FormDataContext';
+import FormScreen from './FormScreen';
+import DetailsScreen from './DetailsScreen';
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  const [formData, setFormData] = useState(null);
+
+  return (
+    <FormDataContext.Provider value={{ formData, setFormData }}>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Form">
+          <Stack.Screen name="Form" component={FormScreen} />
+          <Stack.Screen name="Details" component={DetailsScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </FormDataContext.Provider>
+  );
+}
+```
+
+Now, you can update your `FormScreen` component to navigate to the `DetailsScreen` upon submission, and to update the context with the form data:
+
+```jsx
+import React, { useContext } from 'react';
+import { FormDataContext } from './FormDataContext';
+// ...rest of your imports
+
+const FormScreen = ({ navigation }) => {
+  const { setFormData } = useContext(FormDataContext);
+  // ...rest of your code
+
+  const onSubmit = () => {
+    const data = {
+      name,
+      dob,
+      age: calculateAge(dob),
+      numPets,
+      isGreatDeveloper,
+      understandRules,
+    };
+
+    setFormData(data);
+    navigation.navigate('Details');
+  };
+
+  // ...rest of your code
+};
+```
+
+Finally, in your `DetailsScreen`, you can display the form data:
+
+```jsx
+import React, { useContext } from 'react';
+import { View, Text } from 'react-native';
+import { FormDataContext } from './FormDataContext';
+
+const DetailsScreen = () => {
+  const { formData } = useContext(FormDataContext);
+
+  return (
+    <View>
+      <Text>Name: {formData.name}</Text>
+      <Text>Date of Birth: {formData.dob.toString()}</Text>
+      <Text>Age: {formData.age}</Text>
+      <Text>Number of Pets: {formData.numPets}</Text>
+      <Text>Is a great React Native developer: {formData.isGreatDeveloper ? 'Yes' : 'No'}</Text>
+      <Text>Understands the rules: {formData.understandRules ? 'Yes' : 'No'}</Text>
+    </View>
+  );
+};
+
+export default DetailsScreen;
+```
+
+With this, you have successfully created a `DetailsScreen` where you display the user's form input. This input is passed between screens using React's Context API. The `FormScreen` navigates to the `DetailsScreen` upon form submission, and the `DetailsScreen` retrieves the form data from the context and displays it.
+
+Please remember to import the `FormDataContext` in every file where you plan to use it. Also, replace `'./FormDataContext'`, `'./FormScreen'`, and `'./DetailsScreen'` with the actual paths to these files in your project.
+

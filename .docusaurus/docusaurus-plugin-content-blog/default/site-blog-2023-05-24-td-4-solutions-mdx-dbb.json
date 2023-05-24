@@ -1,13 +1,13 @@
 {
   "permalink": "/blog/td-4",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4.mdx",
-  "source": "@site/blog/2023-05-24-TD4.mdx",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4 solutions.mdx",
+  "source": "@site/blog/2023-05-24-TD4 solutions.mdx",
   "title": "TD n°4 - Forms & Context",
   "description": "Setup",
   "date": "2023-05-24T00:00:00.000Z",
   "formattedDate": "May 24, 2023",
   "tags": [],
-  "readingTime": 1.265,
+  "readingTime": 1.385,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -26,7 +26,7 @@
     ]
   },
   "nextItem": {
-    "title": "Project",
-    "permalink": "/blog/project"
+    "title": "TD n°4 - Forms & Context",
+    "permalink": "/blog/td-4"
   }
 }
