@@ -7,7 +7,7 @@
   "date": "2023-05-23T00:00:00.000Z",
   "formattedDate": "May 23, 2023",
   "tags": [],
-  "readingTime": 11.175,
+  "readingTime": 11.17,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -24,6 +24,10 @@
     "authors": [
       "youcef"
     ]
+  },
+  "prevItem": {
+    "title": "Project",
+    "permalink": "/blog/project"
   },
   "nextItem": {
     "title": "TD n°3 - Navigation & Hooks",

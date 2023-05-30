@@ -29,7 +29,9 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "blogSidebarTitle": "All posts",
+          "blogSidebarCount": "ALL"
         },
         "theme": {
           "customCss": "/Users/youcef/Projects/esiee/react-native-course-esiee/src/css/custom.css"

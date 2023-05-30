@@ -1,8 +1,8 @@
 {
-  "permalink": "/blog/td-4",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4 solutions.mdx",
-  "source": "@site/blog/2023-05-24-TD4 solutions.mdx",
-  "title": "TD n°4 - Forms & Context",
+  "permalink": "/blog/td-4-solutions",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-05-24-TD4-solutions.mdx",
+  "source": "@site/blog/2023-05-24-TD4-solutions.mdx",
+  "title": "TD n°4 - Forms & Context - Solutions",
   "description": "Exercise 1 : Forms and Validation",
   "date": "2023-05-24T00:00:00.000Z",
   "formattedDate": "May 24, 2023",
@@ -19,8 +19,8 @@
     }
   ],
   "frontMatter": {
-    "slug": "td-4",
-    "title": "TD n°4 - Forms & Context",
+    "slug": "td-4-solutions",
+    "title": "TD n°4 - Forms & Context - Solutions",
     "authors": [
       "youcef"
     ]

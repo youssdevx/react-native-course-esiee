@@ -1,5 +1,5 @@
 {
-  "title": "Recent posts",
+  "title": "All posts",
   "items": [
     {
       "title": "TD n°4 - Forms & Context",
@@ -8,6 +8,10 @@
     {
       "title": "Project",
       "permalink": "/blog/project"
+    },
+    {
+      "title": "TD n°3 - Navigation & Hooks - Solutions",
+      "permalink": "/blog/td-3-solutions"
     },
     {
       "title": "TD n°3 - Navigation & Hooks",
@@ -20,6 +24,10 @@
     {
       "title": "TD n°2 - Setup & Components",
       "permalink": "/blog/td-2"
+    },
+    {
+      "title": "TD n°1 - Les bases de JavaScript",
+      "permalink": "/blog/td-1"
     }
   ]
 }
