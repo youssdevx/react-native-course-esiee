@@ -73,7 +73,7 @@ The BMR needs to be adjusted based on the user's activity level to get the total
 We need to add this calculation to the function created in the previous step.
 
 #### Step 5: Adjusting Caloric Intake Based on Health Goal
-Finally, the total caloric intake needs to be adjusted based on the user's health goal. If the user wants to lose weight, subtract 500 calories from the total. If the user wants to gain weight, add 500 calories to the total. If the user wants to maintain weight, the total caloric intake remains the same.
+Finally, the total caloric intake needs to be adjusted based on the user's health goal. If the user wants to lose weight, subtract 10% calories from the total. If the user wants to gain weight, add 10% calories to the total. If the user wants to maintain weight, the total caloric intake remains the same.
 
 #### Step 6: Displaying the Result to the User
 Once the daily caloric intake has been calculated, it should be displayed to the user. we can create a new component to display the result, or they can display it in an existing component.
@@ -82,7 +82,7 @@ Absolutely! Welcome back, students. We've made great progress on our Calories Co
 
 ### Module 3: Food Database
 
-In this module, we're going to be creating a food database where users can search for foods and see their nutritional information. This will involve integrating with a nutrition API to get this information, and creating a user interface where users can search for foods and view their details. Let's dive into the steps.
+In this module, we're going to a feature where users can search for foods and see their nutritional information. This will involve integrating with a nutrition API to get this information, and creating a user interface where users can search for foods and view their details. Let's dive into the steps.
 
 **Step 1: Choosing a Nutrition API**
 
@@ -94,7 +94,7 @@ Next, you'll create a new screen in your application for the food database. This
 
 **Step 3: Handling User Input**
 
-Set up a state variable for the search query and update this variable as the user types into the search bar. You can do this using the `useState` and `onChangeText` props.
+Set up a state variable for the search query and update this variable as the user types into the search bar. You can do this using the `useState` and `onChangeText` props. Add a submit button to launch the search.
 
 **Step 4: Fetching Data from the API**
 
@@ -106,26 +106,26 @@ Once you receive the response from the API, extract the relevant information and
 
 **Step 6: Selecting Food for Meal Planning**
 
-After displaying the search results, allow the user to select a food item to add to their meal plan. You will need to create some form of selection interface – this could be as simple as a "Add to Meal Plan" button next to each food item.
+After displaying the search results, allow the user to select a food item to add to their meal plan. You will need to create some form of selection interface – this could be as simple as the reult item being a `TouchableOpacity` with a `Text`.
 
-Once a food item is selected, prompt the user to specify which meal this food item should be added to (Breakfast, Lunch, Dinner, or Snack). You can create a modal or a new screen to handle this. Use the `Picker` component from React Native for the meal type selection.
+When a food item is selected, prompt the user to specify the **quantity** the **day** AND which **meal** this food item should be added to (Breakfast, Lunch, Dinner, or Snack). You can create a modal or a new screen to handle this. Use the `Picker` component from React Native for the meal type selection.
 
 **Step 7: Updating the Meal Plan**
 
-Upon the user's confirmation, update the user's meal plan with the chosen food item. The meal plan could be an object in your application's state that stores an array of food items for each meal type. Here is an example structure:
+Upon the user's confirmation, update the user's meal plan with the chosen food item. The meal plan could be an object in your application's state that stores an array of food items for each day and each meal type. Here is an example structure:
 
 ```javascript
 {
-  "Breakfast": [],
-  "Lunch": [],
-  "Snack": [],
-  "Dinner": []
+  "Day": {
+    "Breakfast": [],
+    "Lunch": [],
+    "Snack": [],
+    "Dinner": []
+  }
 }
 ```
 
 Each time a food item is added, push it to the appropriate array in this object.
-
-Absolutely, let's move forward to our next module. Having set up our project, implemented health goals functionality, and created a food database, we're now ready to start implementing the meal planning functionality. 
 
 ### Module 4: Meal Planning
 
@@ -137,16 +137,7 @@ First, create a new screen in your application for the Meal Planner. This screen
 
 **Step 2: Displaying the Meal Plan**
 
-Next, you'll need to display the user's meal plan in the Meal Planner screen. Recall the meal plan object we created in the last module, which should look something like this:
-
-```javascript
-{
-  "Breakfast": [],
-  "Lunch": [],
-  "Dinner": [],
-  "Snack": []
-}
-```
+Next, you'll need to display the user's meal plan in the Meal Planner screen.
 
 For each day and each meal, list out the food items that the user has added to their meal plan. You might want to create a separate component for each meal that takes the array of food items as a prop and renders them in a list.
 
